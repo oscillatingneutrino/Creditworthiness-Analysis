@@ -1,0 +1,6 @@
+region,industry,gdp_growth,inflation_rate,avg_interest_rate
+West,Retail,2.6,3.1,5.0
+Midwest,Manufacturing,1.9,3.8,5.2
+South,Retail,3.2,2.9,5.3
+East,Technology,2.1,3.5,4.8
+Northeast,Consumer Goods,1.8,3.9,5.1
