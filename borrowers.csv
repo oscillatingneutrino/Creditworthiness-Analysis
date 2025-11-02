@@ -1,0 +1,1001 @@
+borrower_id,company_name,industry,region,credit_score,relationship_length_yrs,years_in_business,customer_type
+B00001,Greenline Industries,Manufacturing,West,719,3,8,SME
+B00002,Northside Holdings,Technology,West,681,1,8,SME
+B00003,WestBridge Solutions,Healthcare,South,777,3,8,SME
+B00004,WestBridge GlobalLLC,Healthcare,West,676,2,8,SME
+B00005,BlueRiver InternationalTextiles,Wholesale,Midwest,703,2,7,SME
+B00006,WestBridge GlobalLLC,Healthcare,South,742,3,8,SME
+B00007,Silverline GlobalHoldings,Technology,West,677,3,8,SME
+B00008,Greenline InternationalInc.,Wholesale,South,652,6,3,SME
+B00009,Alpha InternationalIndustries,Manufacturing,East,604,3,8,SME
+B00010,BlueRiver InternationalCo.,Technology,Midwest,752,6,7,SME
+B00011,Horizon InternationalLLC,Manufacturing,Midwest,530,1,12,SME
+B00012,WestBridge GlobalCorporation,Transport,Midwest,710,0,7,SME
+B00013,BlueRiver InternationalSolutions,Healthcare,East,710,3,9,Corporate
+B00014,UrbanMart GlobalCorporation,Transport,West,689,0,7,SME
+B00015,Horizon Co.,Healthcare,East,634,2,10,SME
+B00016,UrbanMart Holdings,Retail,South,782,5,9,SME
+B00017,Greenline GlobalTextiles,Transport,Midwest,707,0,10,SME
+B00018,Silverline InternationalSolutions,Consumer Goods,Northeast,647,3,12,SME
+B00019,Northside InternationalCo.,Retail,West,632,0,9,SME
+B00020,Peak Inc.,Consumer Goods,Northeast,748,6,9,SME
+B00021,SunPeak Inc.,Energy,East,753,4,15,SME
+B00022,Peak InternationalIndustries,Technology,South,693,0,6,Corporate
+B00023,SunPeak GlobalFoods,Transport,South,661,3,9,Corporate
+B00024,Peak Corporation,Technology,Midwest,755,3,7,SME
+B00025,Horizon LLC,Wholesale,Northeast,661,6,6,SME
+B00026,SunPeak GlobalManufacturing,Transport,West,650,1,7,SME
+B00027,Peak Corporation,Wholesale,East,674,3,9,SME
+B00028,Peak Inc.,Manufacturing,East,615,5,8,SME
+B00029,SunPeak Co.,Technology,Midwest,660,2,10,Corporate
+B00030,Greenline Solutions,Retail,East,702,6,13,Corporate
+B00031,SunPeak InternationalFoods,Healthcare,West,709,4,8,Corporate
+B00032,BlueRiver LLC,Transport,Midwest,682,4,7,SME
+B00033,Northside Co.,Retail,West,723,1,14,SME
+B00034,Northside Textiles,Energy,South,742,1,5,SME
+B00035,Northside Co.,Technology,West,721,4,6,SME
+B00036,WestBridge InternationalHoldings,healthcare,South,781,2,13,SME
+B00037,WestBridge GlobalIndustries,Technology,East,602,2,13,SME
+B00038,BlueRiver GlobalManufacturing,Manufacturing,East,737,5,7,SME
+B00039,WestBridge Inc.,Energy,South,683,2,15,Corporate
+B00040,Greenline InternationalTextiles,Consumer Goods,Midwest,764,2,11,SME
+B00041,Northside Solutions,Energy,East,728,2,7,SME
+B00042,Greenline InternationalIndustries LLC,Wholesale,West,772,6,10,SME
+B00043,Silverline Industries,Manufacturing,East,623,4,5,SME
+B00044,Silverline LLC,Consumer Goods,West,719,1,8,SME
+B00045,Peak Solutions,Energy,Northeast,741,2,8,SME
+B00046,Alpha InternationalFoods,Retail,Midwest,652,4,6,Corporate
+B00047,SunPeak InternationalInc.,Healthcare,South,626,1,11,Corporate
+B00048,BlueRiver InternationalCo.,Healthcare,East,650,3,7,SME
+B00049,Alpha Corporation,Manufacturing,East,667,1,11,SME
+B00050,Horizon Corporation,Wholesale,Northeast,665,4,8,SME
+B00051,SunPeak InternationalLLC,Consumer Goods,Midwest,598,2,5,Corporate
+B00052,Silverline GlobalSolutions,Wholesale,Northeast,737,4,13,Corporate
+B00053,Greenline GlobalCo.,Retail,Northeast,719,3,11,SME
+B00054,UrbanMart GlobalTextiles,Manufacturing,Northeast,784,4,11,SME
+B00055,WestBridge InternationalIndustries,Technology,Midwest,727,3,9,SME
+B00056,Greenline GlobalHoldings,Consumer Goods,East,826,2,10,SME
+B00057,UrbanMart GlobalFoods,technology,South,583,3,10,SME
+B00058,UrbanMart InternationalHoldings,Retail,Midwest,779,6,10,SME
+B00059,SunPeak Holdings,Transport,Midwest,754,0,10,SME
+B00060,SunPeak Co.,Wholesale,Midwest,655,1,7,SME
+B00061,SunPeak GlobalCorporation,Retail,West,628,3,9,SME
+B00062,Peak Manufacturing,Technology,South,721,0,9,SME
+B00063,UrbanMart Foods,Retail,East,669,5,5,Corporate
+B00064,Greenline Corporation,Transport,Northeast,667,2,4,SME
+B00065,SunPeak Manufacturing,Wholesale,South,616,1,9,Corporate
+B00066,Peak Solutions,Transport,West,732,1,7,SME
+B00067,SunPeak GlobalSolutions,Transport,West,647,3,12,SME
+B00068,Silverline InternationalIndustries,Manufacturing,Northeast,605,3,7,SME
+B00069,SunPeak Co.,Healthcare,West,592,4,12,SME
+B00070,Peak LLC,Retail,Midwest,723,2,10,Corporate
+B00071,WestBridge Manufacturing Ltd,Healthcare,Midwest,695,1,8,Corporate
+B00072,UrbanMart InternationalManufacturing,Retail,Midwest,700,2,10,SME
+B00073,UrbanMart InternationalManufacturing,Retail,Northeast,685,5,11,Corporate
+B00074,WestBridge Inc.,Transport,West,727,2,13,SME
+B00075,Silverline Textiles,Healthcare,Midwest,627,1,9,SME
+B00076,UrbanMart GlobalInc.,Retail,East,766,1,17,Corporate
+B00077,Alpha InternationalInc.,Retail,East,671,2,4,Corporate
+B00078,SunPeak Holdings,Manufacturing,West,641,4,10,SME
+B00079,SunPeak Industries,Manufacturing,West,760,2,10,SME
+B00080,BlueRiver GlobalInc.,Healthcare,Northeast,787,3,9,SME
+B00081,SunPeak Holdings,Manufacturing,South,722,1,7,SME
+B00082,Silverline Holdings,Healthcare,Midwest,755,2,18,SME
+B00083,Greenline GlobalLLC,Manufacturing,East,651,2,9,SME
+B00084,Alpha Co.,Consumer Goods,East,718,4,11,SME
+B00085,Northside Manufacturing,Consumer Goods,East,700,1,6,SME
+B00086,SunPeak Industries,Transport,West,714,6,7,SME
+B00087,UrbanMart GlobalLLC,Transport,Midwest,616,3,11,SME
+B00088,Silverline GlobalIndustries,Consumer Goods,East,679,4,10,SME
+B00089,Northside InternationalInc.,Technology,Midwest,717,2,9,SME
+B00090,Peak LLC,Technology,West,726,1,6,SME
+B00091,WestBridge GlobalManufacturing,Wholesale,Midwest,679,5,6,SME
+B00092,Peak GlobalIndustries,Technology,West,648,4,5,SME
+B00093,Northside InternationalCorporation,Consumer Goods,South,679,3,6,Corporate
+B00094,SunPeak GlobalCorporation,Energy,Midwest,646,1,14,SME
+B00095,Horizon GlobalCo.,Manufacturing,East,667,1,10,Corporate
+B00096,WestBridge GlobalManufacturing,Retail,Midwest,702,5,5,SME
+B00097,Peak Inc.,Retail,West,713,3,11,SME
+B00098,WestBridge GlobalInc.,Healthcare,West,728,4,10,SME
+B00099,WestBridge InternationalSolutions,Consumer Goods,Northeast,722,3,10,Corporate
+B00100,UrbanMart GlobalHoldings LLC,Manufacturing,South,667,1,9,Corporate
+B00101,SunPeak InternationalIndustries,Energy,West,740,5,6,SME
+B00102,BlueRiver Foods,Consumer Goods,South,763,3,6,SME
+B00103,Silverline GlobalManufacturing,Consumer Goods,West,698,5,7,SME
+B00104,WestBridge InternationalFoods,Energy,West,717,3,13,Corporate
+B00105,BlueRiver LLC,Consumer Goods,Midwest,624,2,14,SME
+B00106,Peak GlobalFoods,Transport,South,787,3,5,SME
+B00107,WestBridge Foods,Retail,South,636,2,9,SME
+B00108,WestBridge Industries,Energy,East,783,1,11,SME
+B00109,Peak GlobalCo.,Transport,Midwest,735,2,8,Corporate
+B00110,Peak GlobalFoods,Energy,East,706,4,8,SME
+B00111,Peak GlobalFoods,Transport,South,594,4,13,SME
+B00112,Silverline GlobalInc.,Retail,Midwest,716,5,9,SME
+B00113,Northside Foods,Transport,South,763,2,11,SME
+B00114,Horizon InternationalIndustries,transport,Northeast,787,2,5,Corporate
+B00115,Peak LLC,Technology,South,623,1,10,SME
+B00116,Silverline Solutions,Manufacturing,West,647,6,8,SME
+B00117,Greenline InternationalManufacturing,Consumer Goods,Midwest,645,4,10,SME
+B00118,Peak Corporation,Technology,West,764,3,8,Corporate
+B00119,Northside InternationalInc.,Healthcare,East,819,5,11,SME
+B00120,Northside GlobalLLC,Transport,Midwest,622,2,13,Corporate
+B00121,Peak Textiles,Healthcare,East,653,0,9,SME
+B00122,Alpha InternationalCorporation,Healthcare,West,678,4,6,SME
+B00123,Peak Foods,Energy,East,656,1,9,SME
+B00124,Horizon InternationalSolutions,Manufacturing,Midwest,665,2,9,Corporate
+B00125,Peak Solutions,Energy,West,655,0,6,SME
+B00126,BlueRiver Manufacturing,Healthcare,Midwest,534,5,9,SME
+B00127,Alpha Textiles,Transport,Northeast,607,7,11,Corporate
+B00128,Horizon Corporation,Technology,Northeast,593,3,5,SME
+B00129,UrbanMart Inc.,Retail,East,609,3,6,SME
+B00130,Horizon GlobalTextiles,Healthcare,West,631,2,10,SME
+B00131,BlueRiver InternationalCo.,Technology,Northeast,777,4,9,SME
+B00132,WestBridge InternationalCorporation,Consumer Goods,Midwest,797,3,16,SME
+B00133,Peak GlobalSolutions,Wholesale,Midwest,684,5,12,Corporate
+B00134,Silverline Industries,Healthcare,Midwest,684,3,11,Corporate
+B00135,Greenline InternationalFoods,consumergoods,South,642,3,12,SME
+B00136,UrbanMart GlobalLLC,Retail,East,728,3,11,Corporate
+B00137,Peak GlobalCorporation,Technology,Midwest,689,1,10,SME
+B00138,BlueRiver LLC,Wholesale,Midwest,768,6,10,SME
+B00139,Greenline GlobalTextiles,Energy,West,698,3,8,SME
+B00140,Alpha GlobalCo.,Transport,East,583,5,7,Corporate
+B00141,Silverline GlobalInc.,Technology,West,631,3,6,Corporate
+B00142,UrbanMart GlobalInc.,Manufacturing,West,636,2,10,SME
+B00143,Silverline Textiles,Retail,West,596,4,8,SME
+B00144,Northside GlobalHoldings,Transport,West,658,4,8,Corporate
+B00145,Silverline Inc.,Consumer Goods,Northeast,716,4,8,Corporate
+B00146,Greenline Corporation,Transport,West,744,3,9,SME
+B00147,Northside Holdings,Healthcare,West,742,2,15,SME
+B00148,Peak Industries,Transport,Midwest,685,3,10,SME
+B00149,SunPeak GlobalInc.,Wholesale,Midwest,813,3,10,SME
+B00150,Silverline InternationalInc.,Manufacturing,East,625,4,13,SME
+B00151,WestBridge LLC,Energy,West,630,3,12,SME
+B00152,SunPeak Solutions,Technology,West,659,3,10,SME
+B00153,BlueRiver Industries,Energy,West,720,7,9,SME
+B00154,BlueRiver LLC,Technology,Midwest,700,0,11,SME
+B00155,Horizon InternationalIndustries,Manufacturing,East,743,2,5,SME
+B00156,Peak Textiles,Technology,West,658,3,10,Corporate
+B00157,Horizon GlobalManufacturing,Transport,West,734,0,9,SME
+B00158,UrbanMart Manufacturing,Manufacturing,Midwest,651,7,12,SME
+B00159,BlueRiver Co.,Wholesale,South,674,6,5,SME
+B00160,WestBridge GlobalManufacturing,Manufacturing,Midwest,545,3,6,Corporate
+B00161,Northside InternationalFoods,Wholesale,West,755,4,8,SME
+B00162,UrbanMart Inc.,Consumer Goods,Midwest,655,2,11,SME
+B00163,BlueRiver Inc.,Healthcare,West,661,1,8,SME
+B00164,Alpha InternationalSolutions,Wholesale,Northeast,698,2,7,SME
+B00165,UrbanMart GlobalFoods,Consumer Goods,East,732,3,5,SME
+B00166,Alpha Holdings,transport,West,703,3,8,SME
+B00167,Greenline GlobalSolutions,Technology,East,800,3,13,SME
+B00168,Northside Holdings,Consumer Goods,East,645,3,6,SME
+B00169,Silverline GlobalTextiles Inc,Energy,West,588,3,7,SME
+B00170,UrbanMart Co.,Manufacturing,Northeast,641,2,4,SME
+B00171,SunPeak Foods,Consumer Goods,West,674,2,13,SME
+B00172,WestBridge LLC,Retail,East,785,5,5,SME
+B00173,Silverline Foods,Consumer Goods,Midwest,693,2,12,SME
+B00174,Northside Textiles,Transport,Midwest,719,5,10,SME
+B00175,Silverline Corporation,Retail,South,712,4,14,SME
+B00176,SunPeak InternationalIndustries,Transport,West,688,2,9,SME
+B00177,BlueRiver InternationalFoods,Wholesale,West,807,3,6,SME
+B00178,Horizon LLC,Wholesale,West,675,4,13,SME
+B00179,WestBridge Foods,Wholesale,Midwest,591,1,8,SME
+B00180,WestBridge Textiles,Technology,East,592,3,8,SME
+B00181,UrbanMart Foods,Technology,East,673,4,9,SME
+B00182,BlueRiver Solutions,Technology,South,728,5,7,Corporate
+B00183,Alpha GlobalCo.,Technology,West,658,2,5,SME
+B00184,BlueRiver Co.,Transport,South,699,1,8,SME
+B00185,WestBridge Holdings,Wholesale,Northeast,705,4,6,Corporate
+B00186,Alpha InternationalManufacturing,Consumer Goods,Midwest,701,6,6,SME
+B00187,WestBridge Textiles,Transport,Midwest,690,2,9,SME
+B00188,Alpha GlobalInc.,Manufacturing,Northeast,726,4,9,SME
+B00189,Northside Manufacturing,Retail,Northeast,670,1,5,SME
+B00190,WestBridge InternationalTextiles,Retail,South,726,2,7,SME
+B00191,Alpha Solutions,Transport,West,722,5,6,Corporate
+B00192,Northside InternationalTextiles,Healthcare,Midwest,687,1,6,SME
+B00193,WestBridge Textiles,Healthcare,West,749,2,9,SME
+B00194,WestBridge InternationalTextiles,Wholesale,East,608,3,11,SME
+B00195,UrbanMart InternationalHoldings,Healthcare,West,766,3,10,SME
+B00196,Alpha InternationalSolutions,Wholesale,East,723,1,9,SME
+B00197,Silverline InternationalCorporation,Technology,East,740,3,9,SME
+B00198,BlueRiver InternationalInc.,retail,East,652,7,14,SME
+B00199,WestBridge InternationalHoldings,Energy,West,798,3,5,SME
+B00200,Horizon Textiles,Transport,West,678,3,7,SME
+B00201,Peak InternationalSolutions,Transport,Northeast,815,1,12,Corporate
+B00202,SunPeak GlobalHoldings,Consumer Goods,South,675,3,7,SME
+B00203,Northside Co.,Energy,East,702,4,13,Corporate
+B00204,Horizon Textiles,Manufacturing,West,678,3,8,SME
+B00205,BlueRiver GlobalManufacturing,Healthcare,West,752,3,6,SME
+B00206,SunPeak Textiles,Healthcare,Midwest,734,2,6,SME
+B00207,SunPeak Inc.,Manufacturing,West,730,4,12,SME
+B00208,Alpha InternationalCo.,Transport,Northeast,621,4,8,SME
+B00209,BlueRiver Manufacturing,Retail,Northeast,809,7,15,SME
+B00210,BlueRiver Inc.,Manufacturing,West,850,3,3,SME
+B00211,UrbanMart Inc.,Retail,Northeast,598,4,10,SME
+B00212,WestBridge InternationalCo.,Wholesale,West,668,4,8,SME
+B00213,UrbanMart InternationalInc.,Retail,Midwest,583,3,9,SME
+B00214,Peak Foods,Retail,Midwest,714,5,8,SME
+B00215,Greenline GlobalCorporation,Wholesale,South,610,2,9,SME
+B00216,Alpha GlobalCo.,Transport,East,694,4,8,SME
+B00217,BlueRiver Manufacturing,Technology,West,738,3,12,Corporate
+B00218,Alpha GlobalSolutions,Transport,East,621,1,10,SME
+B00219,SunPeak GlobalTextiles,Wholesale,West,688,3,6,SME
+B00220,Alpha Foods,Healthcare,Northeast,679,3,6,SME
+B00221,BlueRiver Manufacturing,Consumer Goods,East,635,1,15,SME
+B00222,UrbanMart Foods,Consumer Goods,East,640,1,13,SME
+B00223,Greenline GlobalIndustries,Healthcare,South,809,2,6,SME
+B00224,Peak GlobalManufacturing,Wholesale,Northeast,644,2,7,SME
+B00225,UrbanMart GlobalLLC,Wholesale,South,722,4,12,SME
+B00226,BlueRiver Co.,Transport,East,627,4,12,SME
+B00227,Greenline InternationalTextiles,Retail,Northeast,630,2,2,SME
+B00228,Peak GlobalTextiles,Energy,West,722,3,3,SME
+B00229,UrbanMart GlobalIndustries,Energy,West,673,1,7,SME
+B00230,UrbanMart Industries,Technology,East,715,4,11,Corporate
+B00231,Silverline Corporation,Transport,Northeast,634,1,8,SME
+B00232,Peak Textiles,Consumer Goods,East,705,2,7,Corporate
+B00233,BlueRiver InternationalTextiles,Technology,West,712,4,9,SME
+B00234,SunPeak LLC,Transport,South,713,2,8,SME
+B00235,Northside InternationalHoldings,Healthcare,West,625,2,7,Corporate
+B00236,Peak Foods,Wholesale,West,648,2,12,SME
+B00237,Peak Solutions,Energy,Northeast,774,1,14,SME
+B00238,BlueRiver Solutions,Manufacturing,West,731,2,10,SME
+B00239,Silverline InternationalCo.,Wholesale,East,745,4,10,Corporate
+B00240,Northside GlobalInc.,Consumer Goods,South,624,2,4,SME
+B00241,Silverline Solutions,Energy,South,670,1,13,SME
+B00242,WestBridge GlobalHoldings,Manufacturing,Northeast,719,6,4,SME
+B00243,WestBridge GlobalCorporation,Retail,Midwest,762,3,5,SME
+B00244,Northside GlobalIndustries,Healthcare,East,654,8,14,SME
+B00245,Greenline Co.,Technology,South,731,1,11,SME
+B00246,BlueRiver GlobalTextiles,Healthcare,Northeast,785,3,8,SME
+B00247,Alpha Textiles,Transport,West,714,4,8,SME
+B00248,Greenline Industries,Healthcare,Northeast,717,1,13,SME
+B00249,BlueRiver GlobalHoldings,Energy,West,705,3,9,SME
+B00250,Northside Manufacturing,Manufacturing,South,739,1,5,Corporate
+B00251,Northside Corporation,Retail,Midwest,686,3,6,SME
+B00252,WestBridge Industries,Healthcare,East,718,2,7,SME
+B00253,Silverline GlobalFoods,Technology,Midwest,668,2,8,SME
+B00254,Silverline Foods,Consumer Goods,East,708,5,14,SME
+B00255,WestBridge Co.,Wholesale,Midwest,673,3,10,SME
+B00256,Alpha InternationalCorporation,Retail,Midwest,753,3,9,SME
+B00257,BlueRiver GlobalManufacturing,Energy,West,763,1,10,SME
+B00258,WestBridge GlobalCo.,Consumer Goods,South,659,0,10,SME
+B00259,Northside Holdings,Wholesale,East,650,4,9,SME
+B00260,Greenline Holdings,Retail,Northeast,646,2,6,SME
+B00261,Silverline InternationalLLC,Healthcare,West,564,2,6,SME
+B00262,SunPeak Holdings,Retail,West,793,1,11,SME
+B00263,UrbanMart InternationalFoods,Transport,Midwest,695,3,15,Corporate
+B00264,Horizon InternationalSolutions,Transport,Midwest,767,5,8,SME
+B00265,Alpha InternationalManufacturing,Wholesale,Midwest,624,4,9,SME
+B00266,Silverline Corporation,Consumer Goods,Midwest,707,3,10,SME
+B00267,Silverline GlobalCorporation,Transport,South,703,2,11,SME
+B00268,Silverline GlobalInc.,Healthcare,South,792,4,6,SME
+B00269,BlueRiver GlobalLLC,Wholesale,East,780,0,10,Corporate
+B00270,Silverline Corporation,Consumer Goods,South,726,3,8,SME
+B00271,WestBridge InternationalCorporation,Technology,Northeast,715,3,7,SME
+B00272,Horizon Foods,Energy,South,716,4,8,SME
+B00273,Northside InternationalFoods,Transport,Northeast,621,4,8,SME
+B00274,SunPeak GlobalTextiles,Manufacturing,West,671,5,7,SME
+B00275,SunPeak Co.,Retail,East,667,1,13,Corporate
+B00276,UrbanMart Co.,Consumer Goods,Northeast,669,5,13,Corporate
+B00277,Horizon GlobalHoldings,wholesale,Northeast,730,1,7,SME
+B00278,Northside Co.,Technology,South,584,5,8,SME
+B00279,Alpha InternationalManufacturing,Retail,East,612,3,7,SME
+B00280,Silverline InternationalCo.,Healthcare,South,724,0,6,SME
+B00281,Northside GlobalInc.,Energy,West,719,2,4,SME
+B00282,SunPeak Industries,Consumer Goods,Midwest,668,1,8,Corporate
+B00283,Silverline Industries,Retail,East,628,3,10,SME
+B00284,Peak GlobalCo.,Consumer Goods,South,746,2,8,SME
+B00285,Silverline GlobalHoldings,Transport,Northeast,769,2,6,SME
+B00286,WestBridge GlobalFoods,Technology,Northeast,708,3,12,SME
+B00287,WestBridge Solutions,Manufacturing,East,718,3,14,Corporate
+B00288,Greenline Solutions,Energy,West,648,6,7,SME
+B00289,Northside Inc.,Transport,East,729,2,12,SME
+B00290,Northside LLC,transport,South,646,3,8,SME
+B00291,Northside Industries,Retail,Midwest,639,4,5,SME
+B00292,WestBridge LLC,Retail,East,764,2,8,Corporate
+B00293,Greenline LLC,Energy,West,701,3,11,SME
+B00294,UrbanMart GlobalFoods,Healthcare,Northeast,642,2,8,SME
+B00295,Northside InternationalTextiles,Healthcare,Northeast,644,3,1,SME
+B00296,SunPeak LLC,Healthcare,South,707,3,11,SME
+B00297,SunPeak InternationalManufacturing,Manufacturing,Midwest,673,1,14,SME
+B00298,UrbanMart Corporation,Retail,West,652,2,10,SME
+B00299,Horizon InternationalLLC,Technology,West,815,2,7,SME
+B00300,Horizon InternationalSolutions,Wholesale,West,629,2,8,SME
+B00301,Alpha InternationalIndustries,technology,Northeast,740,5,7,SME
+B00302,Silverline Solutions,Energy,Northeast,704,1,10,SME
+B00303,UrbanMart LLC,Healthcare,Northeast,715,1,9,SME
+B00304,Alpha Foods,Transport,Midwest,694,4,11,SME
+B00305,SunPeak GlobalCo.,Healthcare,Northeast,639,2,9,Corporate
+B00306,Northside InternationalFoods,Manufacturing,West,668,1,8,Corporate
+B00307,Alpha Solutions,Consumer Goods,West,762,1,11,SME
+B00308,WestBridge Inc.,Technology,East,709,5,7,SME
+B00309,Alpha GlobalLLC,Manufacturing,West,679,2,10,SME
+B00310,Peak InternationalHoldings,Technology,Midwest,625,6,8,SME
+B00311,Silverline Manufacturing,Consumer Goods,Midwest,774,3,6,SME
+B00312,Peak Inc.,Wholesale,East,723,3,5,Corporate
+B00313,Alpha GlobalFoods,Energy,Northeast,791,3,5,SME
+B00314,Northside Industries,Healthcare,Midwest,803,0,7,SME
+B00315,SunPeak Solutions,Consumer Goods,East,591,4,4,SME
+B00316,Peak Manufacturing,Energy,East,697,4,4,SME
+B00317,Northside Co.,Retail,South,696,3,8,SME
+B00318,Greenline LLC,Technology,East,720,4,12,SME
+B00319,BlueRiver Corporation,Transport,Midwest,716,2,9,SME
+B00320,Horizon Solutions,Consumer Goods,West,718,1,13,SME
+B00321,Silverline Solutions,Energy,East,844,3,12,SME
+B00322,Greenline InternationalCorporation,Wholesale,South,608,3,5,SME
+B00323,UrbanMart Textiles,Technology,South,728,2,7,Corporate
+B00324,SunPeak GlobalInc.,retail,Northeast,697,8,7,SME
+B00325,UrbanMart Solutions,Energy,South,805,1,7,SME
+B00326,UrbanMart GlobalHoldings,Retail,Northeast,616,4,12,SME
+B00327,WestBridge Industries,Consumer Goods,West,710,2,13,Corporate
+B00328,WestBridge Co.,Technology,Midwest,676,5,11,SME
+B00329,UrbanMart Industries,Healthcare,West,640,6,7,SME
+B00330,Northside GlobalFoods,Manufacturing,West,651,6,10,SME
+B00331,Alpha Inc.,Wholesale,East,712,2,13,SME
+B00332,WestBridge Textiles,Transport,Midwest,708,1,11,SME
+B00333,Alpha Foods,Healthcare,South,712,3,8,SME
+B00334,WestBridge GlobalCorporation,Energy,West,712,4,6,SME
+B00335,BlueRiver Textiles,Consumer Goods,West,715,2,9,SME
+B00336,Silverline Co.,Healthcare,Midwest,692,5,13,SME
+B00337,Greenline GlobalSolutions,Wholesale,South,605,0,9,Corporate
+B00338,Horizon GlobalFoods,Technology,West,665,2,7,SME
+B00339,BlueRiver Co.,Transport,Midwest,683,4,10,SME
+B00340,BlueRiver Industries,Manufacturing,South,662,3,5,SME
+B00341,SunPeak Holdings,Energy,South,658,1,5,SME
+B00342,UrbanMart GlobalHoldings,Transport,Northeast,751,3,8,SME
+B00343,WestBridge InternationalIndustries,Technology,Northeast,627,2,8,SME
+B00344,BlueRiver Textiles,Transport,East,619,3,10,Corporate
+B00345,SunPeak GlobalFoods,Wholesale,East,638,2,10,SME
+B00346,WestBridge InternationalHoldings,retail,West,602,2,7,Corporate
+B00347,Peak InternationalManufacturing,Manufacturing,East,666,5,10,SME
+B00348,UrbanMart Co.,Energy,West,706,2,8,SME
+B00349,UrbanMart Manufacturing,Healthcare,South,630,4,7,SME
+B00350,UrbanMart Textiles,Manufacturing,East,774,1,5,SME
+B00351,SunPeak GlobalCo.,Healthcare,West,689,1,11,Corporate
+B00352,Alpha Inc Ltd,Technology,West,677,4,11,SME
+B00353,UrbanMart Holdings,Retail,West,707,4,14,SME
+B00354,Silverline Inc.,Energy,Northeast,683,4,9,SME
+B00355,Alpha Corporation,Manufacturing,Midwest,684,4,4,SME
+B00356,Peak GlobalInc.,manufacturing,East,722,0,15,SME
+B00357,Alpha Co.,Energy,East,750,4,9,SME
+B00358,Alpha Manufacturing,Energy,Midwest,657,2,11,SME
+B00359,UrbanMart LLC,Transport,Northeast,667,3,14,SME
+B00360,UrbanMart Corporation,Manufacturing,East,647,3,10,SME
+B00361,Northside InternationalTextiles,Consumer Goods,South,760,0,8,SME
+B00362,Peak GlobalHoldings,Manufacturing,Midwest,638,4,6,SME
+B00363,Peak InternationalIndustries Inc,Energy,South,784,1,3,SME
+B00364,SunPeak GlobalInc.,Healthcare,East,691,2,8,SME
+B00365,BlueRiver Foods,Energy,South,615,1,13,SME
+B00366,Peak GlobalCo.,Retail,East,622,2,10,Corporate
+B00367,Horizon Co.,Transport,Midwest,772,3,10,SME
+B00368,Peak Manufacturing,Retail,West,592,4,7,SME
+B00369,SunPeak GlobalLLC,Energy,South,619,2,6,SME
+B00370,WestBridge Solutions,Consumer Goods,South,683,3,13,SME
+B00371,Alpha Manufacturing,Manufacturing,Northeast,751,4,12,SME
+B00372,SunPeak GlobalLLC,Manufacturing,Midwest,736,4,8,SME
+B00373,Greenline InternationalCorporation,Wholesale,South,620,1,9,Corporate
+B00374,WestBridge Co.,Technology,East,589,2,15,SME
+B00375,WestBridge GlobalSolutions,Wholesale,South,686,1,9,Corporate
+B00376,Silverline GlobalHoldings,Manufacturing,Northeast,757,3,7,SME
+B00377,UrbanMart Industries,Energy,West,679,4,7,SME
+B00378,Alpha InternationalFoods,Consumer Goods,South,719,0,6,SME
+B00379,UrbanMart Inc.,Manufacturing,Northeast,680,5,11,SME
+B00380,Silverline GlobalManufacturing,Retail,Midwest,746,2,7,Corporate
+B00381,Greenline Textiles,Healthcare,East,674,5,7,SME
+B00382,UrbanMart InternationalManufacturing,Wholesale,East,657,5,12,SME
+B00383,BlueRiver Textiles,Retail,East,767,2,11,SME
+B00384,Peak Inc.,Transport,West,653,0,13,SME
+B00385,UrbanMart InternationalCo.,Consumer Goods,Midwest,554,4,10,SME
+B00386,Alpha GlobalInc.,Energy,Northeast,635,0,9,SME
+B00387,Silverline InternationalFoods,Retail,East,815,5,7,SME
+B00388,Greenline InternationalHoldings,Retail,East,599,3,7,SME
+B00389,Alpha Foods,Technology,South,630,3,9,SME
+B00390,Greenline Textiles,Healthcare,Midwest,642,6,4,SME
+B00391,BlueRiver InternationalInc.,Energy,West,763,4,13,SME
+B00392,SunPeak InternationalFoods,Technology,Midwest,625,5,7,SME
+B00393,Greenline InternationalInc.,Healthcare,Midwest,624,4,10,SME
+B00394,BlueRiver InternationalIndustries,Consumer Goods,West,683,2,7,SME
+B00395,Horizon GlobalCorporation,Healthcare,South,547,4,4,SME
+B00396,Horizon InternationalManufacturing,Manufacturing,West,812,1,12,SME
+B00397,Horizon GlobalTextiles,Healthcare,Northeast,709,0,14,SME
+B00398,BlueRiver Inc,Technology,West,680,0,10,SME
+B00399,Horizon Solutions,Healthcare,East,645,4,7,SME
+B00400,UrbanMart Solutions,Manufacturing,West,692,5,10,SME
+B00401,Northside InternationalCo.,Manufacturing,Midwest,677,2,6,SME
+B00402,UrbanMart InternationalLLC,Manufacturing,Northeast,760,2,8,SME
+B00403,WestBridge Industries,Energy,East,734,4,8,SME
+B00404,BlueRiver Co.,Consumer Goods,Midwest,773,6,9,SME
+B00405,BlueRiver GlobalInc.,Healthcare,West,639,3,8,SME
+B00406,Greenline GlobalHoldings,Wholesale,South,723,4,11,SME
+B00407,WestBridge InternationalTextiles,Manufacturing,East,731,4,5,SME
+B00408,Northside LLC,Retail,West,705,1,6,SME
+B00409,UrbanMart InternationalCo.,Healthcare,Northeast,660,5,13,SME
+B00410,SunPeak Textiles,Wholesale,West,754,4,12,SME
+B00411,Horizon InternationalCorporation,Healthcare,Northeast,714,4,9,SME
+B00412,Peak GlobalIndustries,Retail,South,676,0,15,SME
+B00413,Silverline GlobalHoldings,Transport,Midwest,654,3,9,Corporate
+B00414,SunPeak InternationalCo Ltd,Wholesale,West,672,1,11,SME
+B00415,Horizon GlobalLLC,Consumer Goods,Midwest,722,7,6,SME
+B00416,Northside InternationalFoods,Energy,West,559,2,11,SME
+B00417,Greenline Corporation,Wholesale,South,693,2,11,SME
+B00418,Greenline Solutions,manufacturing,East,671,4,14,SME
+B00419,Horizon Co.,Wholesale,Midwest,680,4,9,Corporate
+B00420,UrbanMart GlobalTextiles,Technology,West,607,3,8,SME
+B00421,WestBridge Co.,Wholesale,Midwest,614,5,9,SME
+B00422,Northside GlobalCorporation,Manufacturing,South,733,2,8,SME
+B00423,Silverline Corporation,Manufacturing,Midwest,716,1,13,SME
+B00424,Alpha Solutions,Energy,Midwest,659,6,7,SME
+B00425,UrbanMart Solutions,Transport,West,733,2,9,SME
+B00426,BlueRiver LLC,Technology,East,696,4,12,SME
+B00427,UrbanMart GlobalInc.,Manufacturing,Midwest,809,1,7,SME
+B00428,Greenline InternationalManufacturing,Wholesale,West,811,2,11,SME
+B00429,Peak Co.,healthcare,Midwest,619,3,16,SME
+B00430,UrbanMart Co.,Consumer Goods,Northeast,674,3,7,SME
+B00431,BlueRiver Holdings,Consumer Goods,West,686,3,9,SME
+B00432,Northside LLC,Healthcare,Midwest,681,4,10,SME
+B00433,Northside InternationalSolutions,Wholesale,Northeast,688,1,12,SME
+B00434,Peak GlobalHoldings,Energy,Midwest,610,1,11,SME
+B00435,WestBridge InternationalLLC,Retail,East,731,4,10,SME
+B00436,Peak GlobalHoldings,Manufacturing,Northeast,681,1,6,SME
+B00437,SunPeak GlobalSolutions,Retail,Northeast,627,2,5,SME
+B00438,SunPeak Textiles,Energy,Northeast,640,1,9,SME
+B00439,WestBridge GlobalTextiles,Wholesale,West,649,1,10,Corporate
+B00440,WestBridge InternationalHoldings,Transport,East,748,4,7,SME
+B00441,BlueRiver LLC,Technology,West,588,3,7,SME
+B00442,Peak Textiles,Energy,West,622,4,13,SME
+B00443,BlueRiver GlobalLLC,Energy,South,741,4,5,SME
+B00444,Northside GlobalInc.,Healthcare,Northeast,738,4,9,SME
+B00445,Alpha GlobalTextiles,healthcare,West,606,2,11,SME
+B00446,Peak GlobalCo.,Wholesale,South,767,5,11,SME
+B00447,WestBridge InternationalFoods,Energy,East,781,3,12,SME
+B00448,Horizon Holdings,Technology,South,685,4,6,SME
+B00449,Greenline Co.,Wholesale,West,708,3,9,Corporate
+B00450,BlueRiver Textiles,Technology,Midwest,796,4,10,SME
+B00451,Alpha GlobalInc.,Transport,West,594,3,9,SME
+B00452,BlueRiver Manufacturing,Healthcare,Midwest,677,6,9,SME
+B00453,Peak InternationalCo.,Retail,East,739,3,10,SME
+B00454,Alpha GlobalInc.,Healthcare,West,754,2,12,SME
+B00455,Greenline Textiles,Transport,South,663,3,12,SME
+B00456,UrbanMart InternationalHoldings,Manufacturing,West,592,0,7,SME
+B00457,SunPeak Solutions,Consumer Goods,East,762,4,8,SME
+B00458,Silverline InternationalInc.,Transport,South,700,1,13,SME
+B00459,Alpha Foods,Transport,East,704,2,10,SME
+B00460,Horizon InternationalCo.,Transport,Northeast,630,2,5,SME
+B00461,Silverline Manufacturing,Manufacturing,East,673,3,12,SME
+B00462,UrbanMart InternationalTextiles,Transport,Midwest,689,1,5,SME
+B00463,Peak Industries,Retail,Midwest,664,4,10,SME
+B00464,Greenline Textiles,Technology,Midwest,753,1,8,SME
+B00465,UrbanMart Solutions,Technology,Northeast,737,1,8,SME
+B00466,Greenline LLC,Energy,Northeast,748,4,4,SME
+B00467,Peak InternationalCo.,Energy,East,717,4,7,SME
+B00468,Greenline Corporation,Consumer Goods,South,703,3,10,SME
+B00469,Greenline Foods,Consumer Goods,South,696,1,8,SME
+B00470,Horizon Inc.,Manufacturing,West,773,3,11,Corporate
+B00471,WestBridge Industries,Healthcare,Northeast,626,5,13,SME
+B00472,Peak LLC,Healthcare,Midwest,674,2,6,SME
+B00473,Alpha InternationalLLC,Wholesale,Northeast,592,5,6,SME
+B00474,Silverline GlobalIndustries,Manufacturing,Northeast,811,3,8,Corporate
+B00475,SunPeak InternationalIndustries,Wholesale,Midwest,601,1,14,SME
+B00476,UrbanMart Corporation,Healthcare,Northeast,614,6,9,SME
+B00477,Northside GlobalLLC,Consumer Goods,West,673,2,9,SME
+B00478,UrbanMart InternationalSolutions,Technology,West,764,1,10,Corporate
+B00479,SunPeak Corporation,Wholesale,West,718,1,4,SME
+B00480,Silverline GlobalManufacturing,Manufacturing,South,585,3,9,SME
+B00481,SunPeak GlobalManufacturing,Transport,West,710,2,10,SME
+B00482,Alpha GlobalCo.,Manufacturing,Midwest,744,6,8,SME
+B00483,UrbanMart Co. Inc,Technology,East,675,5,4,Corporate
+B00484,SunPeak InternationalIndustries,Retail,South,670,2,12,SME
+B00485,BlueRiver InternationalHoldings,Consumer Goods,West,635,2,10,SME
+B00486,Silverline Foods,Technology,South,791,2,9,SME
+B00487,Northside Holdings,Wholesale,South,755,3,10,SME
+B00488,WestBridge GlobalIndustries,Wholesale,South,601,2,9,Corporate
+B00489,Alpha GlobalIndustries,consumergoods,Northeast,731,3,9,SME
+B00490,Northside InternationalLLC,Healthcare,East,686,2,5,SME
+B00491,BlueRiver Manufacturing,Healthcare,Midwest,731,4,9,SME
+B00492,Horizon InternationalTextiles,Transport,West,653,3,8,Corporate
+B00493,Alpha GlobalCo.,Energy,Northeast,687,3,8,SME
+B00494,Peak InternationalIndustries,Energy,South,729,1,6,Corporate
+B00495,Alpha Corporation,Consumer Goods,East,807,6,8,SME
+B00496,Alpha GlobalIndustries,Manufacturing,South,717,5,9,SME
+B00497,WestBridge Manufacturing,Healthcare,South,676,6,7,SME
+B00498,UrbanMart Co.,Healthcare,West,681,2,8,Corporate
+B00499,Peak InternationalTextiles,Manufacturing,West,709,5,11,SME
+B00500,BlueRiver GlobalLLC Ltd,Energy,West,787,5,8,SME
+B00501,BlueRiver Inc.,Healthcare,Midwest,688,2,10,SME
+B00502,Peak LLC,Wholesale,West,736,2,8,Corporate
+B00503,Alpha InternationalLLC,Technology,South,788,4,5,SME
+B00504,Alpha GlobalCo.,Consumer Goods,South,713,3,7,SME
+B00505,Horizon GlobalIndustries,Wholesale,South,603,1,11,SME
+B00506,BlueRiver GlobalManufacturing,Healthcare,West,731,3,9,SME
+B00507,SunPeak InternationalCorporation,Energy,South,809,4,10,SME
+B00508,Horizon Industries,Retail,South,662,3,14,SME
+B00509,Horizon Inc.,Consumer Goods,Midwest,682,2,10,SME
+B00510,BlueRiver InternationalLLC,Consumer Goods,East,757,5,10,SME
+B00511,BlueRiver Inc.,Consumer Goods,South,681,2,9,SME
+B00512,Greenline Corporation,Technology,East,720,2,12,SME
+B00513,UrbanMart GlobalCo.,Technology,South,683,0,9,SME
+B00514,Peak GlobalCorporation Group,Manufacturing,West,726,3,9,SME
+B00515,Peak InternationalInc.,Manufacturing,West,672,1,7,Corporate
+B00516,SunPeak Industries,Energy,West,728,2,7,Corporate
+B00517,Silverline GlobalTextiles,Retail,West,751,1,7,SME
+B00518,BlueRiver InternationalTextiles,Consumer Goods,Midwest,678,5,6,Corporate
+B00519,Greenline GlobalTextiles,Transport,Midwest,553,2,8,SME
+B00520,UrbanMart Foods,Manufacturing,East,677,4,10,SME
+B00521,Horizon InternationalInc.,Transport,South,655,3,8,SME
+B00522,UrbanMart GlobalHoldings,Energy,East,653,5,8,SME
+B00523,Peak Foods,Wholesale,West,614,6,11,SME
+B00524,Northside InternationalTextiles,Manufacturing,East,700,2,9,SME
+B00525,SunPeak Textiles,Energy,South,651,4,8,SME
+B00526,Northside LLC,Transport,West,673,1,10,Corporate
+B00527,BlueRiver Manufacturing,Consumer Goods,Midwest,733,3,8,SME
+B00528,SunPeak Foods,Transport,West,657,1,7,SME
+B00529,Peak Manufacturing,Transport,West,680,2,8,SME
+B00530,Horizon Foods,Retail,South,703,2,11,SME
+B00531,WestBridge GlobalSolutions,Transport,East,676,4,9,Corporate
+B00532,Alpha Corporation,Transport,Midwest,732,3,11,SME
+B00533,Alpha Inc.,Retail,East,755,1,10,SME
+B00534,Silverline GlobalInc.,Energy,West,702,5,7,SME
+B00535,UrbanMart Industries,Healthcare,West,696,5,6,SME
+B00536,SunPeak GlobalInc.,Manufacturing,West,551,5,6,SME
+B00537,Peak Holdings,Transport,West,647,6,11,SME
+B00538,Horizon Holdings,Energy,South,738,2,6,SME
+B00539,BlueRiver InternationalInc.,Wholesale,South,707,5,8,SME
+B00540,UrbanMart Holdings,Consumer Goods,East,617,5,6,SME
+B00541,Alpha GlobalManufacturing,Consumer Goods,West,672,3,8,SME
+B00542,Northside GlobalSolutions,Consumer Goods,West,728,5,13,SME
+B00543,BlueRiver InternationalSolutions,Manufacturing,South,754,1,8,SME
+B00544,Northside Holdings,Healthcare,East,599,2,10,SME
+B00545,Northside GlobalFoods,retail,South,767,2,14,SME
+B00546,Horizon Corporation,Consumer Goods,East,723,4,11,SME
+B00547,BlueRiver Industries,Wholesale,South,792,4,4,SME
+B00548,Greenline InternationalSolutions,Consumer Goods,South,643,3,8,SME
+B00549,Horizon Foods,Wholesale,East,692,1,9,Corporate
+B00550,Horizon Industries,Transport,Northeast,708,0,8,SME
+B00551,Alpha InternationalCorporation,Manufacturing,West,720,3,8,SME
+B00552,BlueRiver Foods,Consumer Goods,Midwest,646,4,9,SME
+B00553,WestBridge GlobalLLC,Energy,East,691,3,7,SME
+B00554,Alpha Holdings,Wholesale,Midwest,798,1,8,SME
+B00555,Alpha InternationalCo.,Energy,East,803,1,6,SME
+B00556,Northside Inc.,Wholesale,Northeast,636,2,6,SME
+B00557,Silverline InternationalHoldings,Retail,Northeast,601,5,10,SME
+B00558,Alpha Corporation,Technology,South,667,3,11,Corporate
+B00559,Alpha Inc.,Consumer Goods,South,688,1,9,SME
+B00560,Northside GlobalSolutions,Retail,Midwest,766,1,6,SME
+B00561,SunPeak GlobalSolutions,Retail,West,614,0,10,SME
+B00562,SunPeak InternationalFoods,Healthcare,West,607,1,9,SME
+B00563,Greenline InternationalLLC,Manufacturing,Midwest,775,5,8,SME
+B00564,BlueRiver GlobalSolutions,Consumer Goods,East,691,5,2,SME
+B00565,Peak Foods,Manufacturing,Midwest,737,1,11,SME
+B00566,WestBridge Holdings,Wholesale,East,622,4,9,Corporate
+B00567,Greenline GlobalIndustries,Transport,Midwest,629,5,8,SME
+B00568,Horizon Co. LLC,Healthcare,West,670,2,5,SME
+B00569,Northside GlobalCo.,Wholesale,Northeast,744,4,10,Corporate
+B00570,Horizon InternationalInc.,Healthcare,South,678,6,6,SME
+B00571,Greenline GlobalCorporation LLC,Wholesale,Northeast,747,3,8,SME
+B00572,Northside InternationalCo.,Consumer Goods,South,757,6,12,SME
+B00573,BlueRiver Solutions,Consumer Goods,South,700,1,9,SME
+B00574,Silverline Corporation,Wholesale,South,675,1,9,SME
+B00575,SunPeak Industries,Wholesale,Northeast,683,4,7,SME
+B00576,Alpha GlobalHoldings,Wholesale,South,594,4,8,Corporate
+B00577,BlueRiver Textiles,Healthcare,West,757,2,12,SME
+B00578,Alpha InternationalTextiles,Wholesale,South,766,2,12,SME
+B00579,Peak Co.,Consumer Goods,West,635,2,5,Corporate
+B00580,BlueRiver InternationalIndustries,Manufacturing,South,738,3,11,Corporate
+B00581,Northside Holdings,Technology,East,747,2,10,Corporate
+B00582,Northside GlobalSolutions,Energy,South,771,5,8,SME
+B00583,SunPeak GlobalCo.,Healthcare,South,720,3,5,SME
+B00584,Horizon InternationalHoldings,Energy,East,721,1,10,SME
+B00585,BlueRiver InternationalManufacturing,transport,West,658,3,7,SME
+B00586,Silverline GlobalCorporation,Wholesale,West,615,1,5,SME
+B00587,Peak LLC,Consumer Goods,Midwest,565,3,9,SME
+B00588,Silverline InternationalFoods,Manufacturing,Midwest,749,3,11,SME
+B00589,UrbanMart InternationalSolutions,Wholesale,East,585,7,10,SME
+B00590,Peak Solutions,Technology,Midwest,634,0,8,SME
+B00591,Silverline InternationalCo.,Manufacturing,Midwest,698,4,9,SME
+B00592,UrbanMart GlobalInc.,Technology,South,647,1,9,SME
+B00593,UrbanMart Corporation,Energy,South,719,2,5,SME
+B00594,Northside Holdings,Energy,West,723,3,11,SME
+B00595,UrbanMart Industries,Transport,West,683,7,10,Corporate
+B00596,BlueRiver InternationalFoods,Energy,East,756,3,7,SME
+B00597,Northside GlobalCo.,Transport,Midwest,712,1,9,SME
+B00598,Greenline InternationalFoods,Technology,West,665,4,11,SME
+B00599,Northside Co.,retail,West,641,3,13,Corporate
+B00600,Northside Inc.,Retail,West,701,2,8,Corporate
+B00601,UrbanMart Textiles,healthcare,East,654,2,4,SME
+B00602,Peak Textiles,Manufacturing,East,716,2,8,SME
+B00603,Silverline Corporation,Healthcare,West,624,2,9,SME
+B00604,Horizon Holdings,Healthcare,South,797,3,13,SME
+B00605,Alpha Textiles,Consumer Goods,Midwest,663,3,5,SME
+B00606,Northside Holdings,Healthcare,Midwest,586,4,8,SME
+B00607,UrbanMart Co.,Consumer Goods,South,614,2,5,Corporate
+B00608,WestBridge GlobalFoods,Manufacturing,Northeast,702,3,12,SME
+B00609,Peak InternationalInc.,Wholesale,Midwest,762,0,10,SME
+B00610,WestBridge Co.,Manufacturing,South,546,4,11,SME
+B00611,Peak Inc.,Manufacturing,West,627,2,15,SME
+B00612,UrbanMart Holdings,Retail,Midwest,797,3,8,Corporate
+B00613,BlueRiver Manufacturing Group,Consumer Goods,Northeast,573,5,13,SME
+B00614,WestBridge InternationalHoldings,Technology,West,546,3,10,SME
+B00615,BlueRiver Industries,Healthcare,Midwest,690,1,8,SME
+B00616,SunPeak Inc.,Wholesale,South,609,4,10,SME
+B00617,Silverline InternationalHoldings,Healthcare,South,635,2,9,SME
+B00618,Silverline InternationalFoods,Consumer Goods,South,731,0,10,SME
+B00619,Greenline GlobalSolutions,Transport,South,638,3,8,Corporate
+B00620,WestBridge Corporation,Transport,Northeast,664,3,10,SME
+B00621,WestBridge Manufacturing,Technology,West,642,3,14,SME
+B00622,SunPeak GlobalFoods,Retail,South,637,4,9,SME
+B00623,Silverline InternationalIndustries,Wholesale,East,791,2,6,SME
+B00624,BlueRiver Textiles,Consumer Goods,Northeast,782,2,8,SME
+B00625,SunPeak Corporation,Consumer Goods,West,706,4,8,SME
+B00626,SunPeak InternationalHoldings,Manufacturing,East,812,4,11,Corporate
+B00627,Peak Solutions,Wholesale,East,715,2,12,SME
+B00628,Peak GlobalManufacturing,Consumer Goods,East,646,1,10,SME
+B00629,WestBridge InternationalLLC,Retail,Midwest,750,2,10,SME
+B00630,UrbanMart InternationalManufacturing,Transport,East,610,4,8,SME
+B00631,Horizon Corporation,Wholesale,West,678,1,8,SME
+B00632,Silverline InternationalSolutions,Wholesale,Midwest,807,4,5,SME
+B00633,Peak Corporation,Wholesale,East,622,3,11,Corporate
+B00634,Silverline Co.,Technology,Northeast,600,0,10,SME
+B00635,Silverline InternationalSolutions,Energy,Midwest,777,6,8,SME
+B00636,BlueRiver LLC,Wholesale,South,770,3,7,SME
+B00637,Silverline GlobalSolutions,Manufacturing,West,752,3,13,SME
+B00638,Horizon InternationalIndustries,Transport,South,786,0,11,SME
+B00639,Silverline GlobalTextiles,Consumer Goods,Northeast,807,3,7,SME
+B00640,UrbanMart Textiles,Technology,Northeast,731,5,8,SME
+B00641,Northside InternationalIndustries,Transport,East,654,3,12,SME
+B00642,Peak Foods,Energy,South,623,3,4,Corporate
+B00643,Alpha Holdings,Manufacturing,East,614,4,11,SME
+B00644,Alpha InternationalTextiles,Consumer Goods,Midwest,742,3,7,SME
+B00645,UrbanMart GlobalManufacturing,Transport,Northeast,691,2,12,SME
+B00646,BlueRiver Co.,Manufacturing,East,727,3,12,SME
+B00647,UrbanMart Inc.,Retail,Northeast,567,2,9,SME
+B00648,UrbanMart Inc.,Healthcare,West,668,2,9,SME
+B00649,SunPeak GlobalManufacturing,Energy,West,655,5,19,SME
+B00650,Alpha GlobalManufacturing,Consumer Goods,Northeast,728,4,11,SME
+B00651,BlueRiver InternationalHoldings,Healthcare,South,677,2,14,SME
+B00652,Northside GlobalTextiles,Manufacturing,West,850,3,7,SME
+B00653,Alpha Industries,Energy,West,574,3,2,SME
+B00654,Peak Manufacturing,Retail,South,601,3,14,SME
+B00655,Silverline InternationalLLC,Healthcare,West,809,4,7,SME
+B00656,BlueRiver Foods,Technology,West,690,2,13,SME
+B00657,WestBridge GlobalIndustries,Consumer Goods,South,808,6,6,SME
+B00658,Greenline InternationalCo.,Transport,South,687,3,9,SME
+B00659,WestBridge Corporation,Retail,West,626,1,9,SME
+B00660,Greenline GlobalIndustries,Retail,Midwest,631,1,12,SME
+B00661,BlueRiver Manufacturing,Transport,Midwest,727,5,9,Corporate
+B00662,Peak Textiles,Energy,East,695,3,11,SME
+B00663,UrbanMart Solutions,Consumer Goods,West,652,6,15,SME
+B00664,Horizon Corporation,Technology,Northeast,623,3,11,SME
+B00665,Horizon InternationalManufacturing,Technology,West,773,4,8,SME
+B00666,Silverline GlobalCo.,Manufacturing,West,698,3,11,SME
+B00667,Silverline InternationalTextiles,Technology,Northeast,688,1,8,Corporate
+B00668,SunPeak Textiles Ltd,Healthcare,South,675,2,7,SME
+B00669,Horizon Holdings,Energy,South,795,6,11,SME
+B00670,Greenline InternationalCo.,Wholesale,East,850,0,7,Corporate
+B00671,Horizon Textiles,Manufacturing,East,619,2,9,SME
+B00672,SunPeak GlobalSolutions,Transport,East,620,7,11,SME
+B00673,Horizon Textiles,Retail,Midwest,739,3,5,SME
+B00674,Peak GlobalSolutions,energy,West,599,2,12,SME
+B00675,Alpha Industries,Energy,South,598,2,9,SME
+B00676,BlueRiver Industries,Transport,South,737,3,11,SME
+B00677,Northside Co.,Wholesale,South,765,0,7,SME
+B00678,SunPeak GlobalInc.,Healthcare,South,726,1,12,SME
+B00679,Peak InternationalHoldings,Wholesale,Midwest,710,4,5,SME
+B00680,Northside LLC,Retail,West,805,4,8,SME
+B00681,Peak InternationalInc.,Healthcare,South,585,3,8,SME
+B00682,Northside GlobalLLC,Manufacturing,South,622,2,13,SME
+B00683,SunPeak Inc.,Wholesale,South,696,2,9,SME
+B00684,UrbanMart GlobalLLC,Retail,Midwest,703,2,6,SME
+B00685,Silverline Corporation,Technology,West,704,1,9,SME
+B00686,SunPeak InternationalSolutions,Energy,South,468,4,7,SME
+B00687,Northside Inc.,Transport,South,732,4,8,SME
+B00688,UrbanMart Co.,Wholesale,South,631,4,12,SME
+B00689,Northside Textiles,Wholesale,South,724,3,3,SME
+B00690,UrbanMart Textiles,Technology,South,727,2,8,SME
+B00691,Northside GlobalTextiles,Healthcare,Midwest,746,3,8,SME
+B00692,Horizon GlobalHoldings,Consumer Goods,Northeast,735,4,4,SME
+B00693,SunPeak InternationalTextiles,Consumer Goods,East,716,3,7,Corporate
+B00694,Northside InternationalInc.,Energy,Midwest,741,3,13,SME
+B00695,WestBridge InternationalCorporation,Healthcare,Midwest,672,5,10,SME
+B00696,SunPeak Textiles,Manufacturing,West,615,2,11,SME
+B00697,Silverline Holdings,Wholesale,East,775,4,13,SME
+B00698,UrbanMart Inc.,Retail,West,707,6,5,SME
+B00699,UrbanMart Industries,Energy,Midwest,672,6,11,SME
+B00700,SunPeak InternationalLLC,Transport,Northeast,716,1,8,SME
+B00701,WestBridge Corporation,Energy,East,609,2,6,SME
+B00702,Greenline Holdings,consumergoods,South,670,4,10,SME
+B00703,Northside Co.,Technology,South,725,3,4,SME
+B00704,WestBridge InternationalSolutions,Technology,East,741,3,2,SME
+B00705,Silverline Textiles,Manufacturing,South,728,2,5,SME
+B00706,UrbanMart GlobalTextiles,Retail,Midwest,673,4,9,SME
+B00707,BlueRiver GlobalHoldings,Energy,East,650,5,5,SME
+B00708,SunPeak InternationalTextiles,Manufacturing,East,670,3,9,SME
+B00709,Horizon InternationalHoldings,Consumer Goods,Northeast,781,5,7,SME
+B00710,Greenline GlobalManufacturing,Technology,Midwest,804,4,9,SME
+B00711,Northside GlobalSolutions,Energy,East,677,3,12,SME
+B00712,Horizon Holdings,Consumer Goods,South,769,7,2,SME
+B00713,Silverline InternationalHoldings,Retail,South,667,1,3,SME
+B00714,Silverline GlobalInc Group,Healthcare,Midwest,675,5,8,SME
+B00715,Greenline GlobalManufacturing,Energy,South,635,2,5,SME
+B00716,Peak LLC,Wholesale,South,698,7,7,SME
+B00717,BlueRiver Textiles,Consumer Goods,Midwest,657,8,9,SME
+B00718,Northside GlobalLLC,Retail,Northeast,664,1,10,Corporate
+B00719,Silverline InternationalCo.,Energy,Midwest,770,2,10,SME
+B00720,UrbanMart InternationalFoods,Consumer Goods,West,584,1,7,Corporate
+B00721,Alpha Solutions,Technology,East,717,2,10,Corporate
+B00722,Silverline InternationalFoods,Energy,Northeast,672,2,11,SME
+B00723,WestBridge InternationalTextiles,Manufacturing,South,672,1,12,SME
+B00724,BlueRiver Textiles,Healthcare,Midwest,715,3,6,SME
+B00725,Silverline InternationalCorporation,Consumer Goods,West,665,5,9,SME
+B00726,WestBridge InternationalHoldings,Wholesale,East,780,5,6,SME
+B00727,Peak InternationalSolutions,Wholesale,South,726,1,11,SME
+B00728,UrbanMart Manufacturing,Retail,West,652,4,13,SME
+B00729,Horizon GlobalFoods,Technology,East,658,3,8,SME
+B00730,Greenline InternationalManufacturing,Wholesale,South,736,0,7,Corporate
+B00731,SunPeak Foods,Healthcare,South,759,3,10,SME
+B00732,UrbanMart Solutions,Retail,South,759,4,7,Corporate
+B00733,SunPeak LLC,Retail,South,629,1,11,SME
+B00734,Peak Industries,Energy,Midwest,710,4,10,SME
+B00735,WestBridge Solutions,Transport,South,635,3,9,SME
+B00736,Northside Co.,Energy,Northeast,726,3,10,SME
+B00737,Alpha LLC,Technology,South,692,3,11,Corporate
+B00738,Greenline GlobalTextiles,Energy,Northeast,737,0,12,SME
+B00739,Greenline Inc.,manufacturing,South,771,6,11,SME
+B00740,UrbanMart InternationalFoods,Energy,West,693,3,7,Corporate
+B00741,WestBridge InternationalCo.,Retail,West,625,3,10,SME
+B00742,Silverline Industries,Energy,West,710,4,8,Corporate
+B00743,Horizon GlobalLLC,Retail,Northeast,503,5,14,SME
+B00744,Peak InternationalCorporation,Healthcare,South,693,5,12,SME
+B00745,WestBridge Corporation,Technology,Midwest,688,3,4,SME
+B00746,BlueRiver Textiles,Consumer Goods,Northeast,651,3,3,SME
+B00747,Greenline Inc.,Consumer Goods,West,622,3,4,SME
+B00748,WestBridge InternationalManufacturing,Retail,Midwest,712,5,11,SME
+B00749,Silverline GlobalTextiles,Healthcare,East,736,4,8,SME
+B00750,Greenline GlobalManufacturing,Consumer Goods,East,712,1,12,SME
+B00751,UrbanMart InternationalCorporation,Manufacturing,West,569,4,8,SME
+B00752,WestBridge GlobalFoods,Wholesale,Midwest,610,7,14,Corporate
+B00753,WestBridge Solutions,Energy,South,694,3,9,Corporate
+B00754,SunPeak GlobalCorporation,Manufacturing,South,695,4,12,SME
+B00755,SunPeak Foods,Technology,Midwest,662,6,11,SME
+B00756,SunPeak GlobalIndustries,Wholesale,Midwest,626,5,15,SME
+B00757,Greenline GlobalTextiles,Retail,South,652,3,4,SME
+B00758,SunPeak GlobalTextiles,Transport,South,687,2,6,SME
+B00759,BlueRiver Co.,Wholesale,Northeast,677,4,6,SME
+B00760,UrbanMart Solutions,Wholesale,East,580,6,7,SME
+B00761,Horizon InternationalHoldings,Wholesale,East,729,2,8,SME
+B00762,BlueRiver GlobalLLC,Energy,Midwest,822,2,13,SME
+B00763,UrbanMart InternationalHoldings,Consumer Goods,East,728,2,10,SME
+B00764,Alpha Industries,Technology,South,649,4,8,SME
+B00765,Silverline InternationalSolutions,Retail,West,731,4,6,SME
+B00766,Greenline Solutions,Energy,South,651,3,8,SME
+B00767,Peak GlobalTextiles,energy,Northeast,634,3,7,SME
+B00768,Horizon Foods,Retail,South,767,4,13,SME
+B00769,Horizon Textiles,Consumer Goods,West,675,2,8,SME
+B00770,Silverline InternationalTextiles,Wholesale,Midwest,522,2,15,SME
+B00771,Greenline GlobalCo.,Manufacturing,West,548,5,9,SME
+B00772,Alpha GlobalIndustries,Consumer Goods,East,691,3,10,SME
+B00773,BlueRiver Industries,Transport,Midwest,678,3,8,SME
+B00774,Horizon LLC,Healthcare,West,646,1,10,SME
+B00775,WestBridge Holdings,Technology,Midwest,758,1,8,SME
+B00776,Northside Manufacturing,Transport,West,672,3,9,SME
+B00777,Silverline Manufacturing,Consumer Goods,West,728,3,3,Corporate
+B00778,UrbanMart InternationalTextiles,Transport,Northeast,648,3,8,SME
+B00779,Greenline Inc.,Energy,South,673,5,8,SME
+B00780,Alpha InternationalSolutions,Manufacturing,East,753,5,10,SME
+B00781,Greenline GlobalSolutions,Technology,South,758,7,8,SME
+B00782,Northside InternationalManufacturing,Healthcare,Midwest,766,6,13,SME
+B00783,UrbanMart GlobalSolutions,Manufacturing,West,766,0,3,SME
+B00784,WestBridge Inc.,Manufacturing,South,682,7,9,SME
+B00785,BlueRiver GlobalFoods,healthcare,West,756,4,7,SME
+B00786,Horizon Corporation,Retail,Northeast,723,0,8,SME
+B00787,BlueRiver Solutions,Transport,South,544,1,14,SME
+B00788,Alpha GlobalHoldings,Healthcare,East,739,2,13,SME
+B00789,Alpha Holdings Group,Energy,Midwest,765,1,12,Corporate
+B00790,Horizon GlobalSolutions Inc,Wholesale,West,772,6,13,SME
+B00791,Silverline Corporation,Wholesale,South,668,3,11,SME
+B00792,UrbanMart Foods,Transport,East,811,4,13,SME
+B00793,Northside Textiles,Energy,West,719,4,8,SME
+B00794,Greenline Co.,Healthcare,South,706,3,10,Corporate
+B00795,BlueRiver Co.,Transport,Midwest,629,2,8,Corporate
+B00796,WestBridge Holdings,Transport,South,670,6,10,SME
+B00797,SunPeak InternationalFoods,Technology,South,634,3,12,SME
+B00798,Silverline Solutions,Retail,West,644,3,10,SME
+B00799,Alpha Holdings,Energy,East,697,1,9,SME
+B00800,Northside GlobalManufacturing,Manufacturing,South,638,4,7,SME
+B00801,Greenline GlobalHoldings,retail,Midwest,624,3,4,SME
+B00802,Northside Holdings,Consumer Goods,Midwest,682,3,13,SME
+B00803,Horizon GlobalHoldings,Energy,South,655,2,10,SME
+B00804,Silverline Industries,Manufacturing,West,578,2,9,Corporate
+B00805,Silverline GlobalCo.,Consumer Goods,Midwest,730,2,15,SME
+B00806,Greenline InternationalHoldings,Wholesale,East,597,5,9,SME
+B00807,Silverline InternationalManufacturing,Retail,South,682,4,11,SME
+B00808,Greenline InternationalHoldings,Transport,West,688,3,7,SME
+B00809,UrbanMart Corporation,Energy,East,701,5,4,SME
+B00810,Alpha Industries,Energy,West,786,4,14,SME
+B00811,Peak GlobalManufacturing,Technology,East,676,1,9,SME
+B00812,UrbanMart Industries,Retail,Northeast,704,3,6,SME
+B00813,Peak Textiles,retail,East,636,5,10,SME
+B00814,Northside GlobalFoods,Consumer Goods,East,724,4,12,SME
+B00815,Silverline Industries,Technology,Midwest,671,5,6,SME
+B00816,WestBridge InternationalSolutions,Energy,East,683,1,9,SME
+B00817,Horizon Inc,Transport,South,753,5,16,SME
+B00818,Silverline GlobalCorporation,Retail,South,670,2,6,Corporate
+B00819,SunPeak Inc.,Healthcare,South,633,3,9,SME
+B00820,WestBridge InternationalInc.,Transport,Midwest,689,5,11,SME
+B00821,Greenline Industries,Wholesale,East,620,6,7,SME
+B00822,Greenline GlobalLLC,Retail,Midwest,784,2,6,SME
+B00823,Silverline InternationalManufacturing,Technology,Northeast,684,6,11,SME
+B00824,BlueRiver Inc.,Technology,East,786,2,11,SME
+B00825,Greenline Industries,Consumer Goods,West,762,5,6,SME
+B00826,Horizon Co.,Retail,West,721,3,7,SME
+B00827,Silverline InternationalTextiles,Transport,South,636,5,8,SME
+B00828,UrbanMart Solutions,Transport,Midwest,761,2,11,SME
+B00829,Northside GlobalTextiles,Manufacturing,Midwest,626,1,9,SME
+B00830,Alpha Manufacturing,Technology,Midwest,740,2,13,SME
+B00831,Horizon Corporation,Manufacturing,Midwest,662,4,12,SME
+B00832,Alpha Inc.,Technology,Midwest,671,1,2,SME
+B00833,SunPeak Holdings,consumergoods,Midwest,673,3,15,SME
+B00834,Peak LLC,Retail,Midwest,664,4,9,SME
+B00835,SunPeak Solutions,Manufacturing,South,663,3,12,SME
+B00836,BlueRiver LLC,Retail,Northeast,665,5,5,SME
+B00837,BlueRiver Co.,Manufacturing,Northeast,745,2,14,SME
+B00838,BlueRiver Inc.,Technology,South,703,1,6,SME
+B00839,SunPeak Textiles,Healthcare,Northeast,775,7,6,SME
+B00840,WestBridge InternationalTextiles,Retail,East,774,2,6,SME
+B00841,Alpha Inc.,Energy,East,562,1,11,SME
+B00842,Northside InternationalManufacturing,Energy,South,689,1,13,SME
+B00843,WestBridge Co Ltd,Retail,West,688,3,7,SME
+B00844,Greenline GlobalFoods,Transport,East,665,1,11,SME
+B00845,SunPeak InternationalIndustries,Energy,Midwest,742,8,8,SME
+B00846,Horizon InternationalManufacturing,Consumer Goods,West,720,2,7,SME
+B00847,Horizon InternationalCorporation,Manufacturing,South,631,3,8,SME
+B00848,Northside InternationalManufacturing,Consumer Goods,East,694,5,15,SME
+B00849,Greenline InternationalManufacturing,Retail,West,668,1,11,SME
+B00850,Alpha GlobalCorporation,Transport,Midwest,712,4,10,SME
+B00851,Horizon InternationalCo.,Manufacturing,South,660,6,13,SME
+B00852,SunPeak Holdings,Wholesale,Midwest,644,3,8,SME
+B00853,Greenline GlobalCorporation,Technology,East,742,4,10,SME
+B00854,SunPeak Manufacturing,Healthcare,West,603,5,8,SME
+B00855,WestBridge Co.,Technology,West,774,6,10,SME
+B00856,Silverline InternationalTextiles,Retail,East,682,3,9,SME
+B00857,Greenline Manufacturing,Technology,East,667,2,5,Corporate
+B00858,WestBridge InternationalHoldings,Technology,South,656,2,12,SME
+B00859,Northside Corporation,Consumer Goods,East,680,2,10,SME
+B00860,UrbanMart InternationalCorporation,Energy,South,693,4,9,Corporate
+B00861,Horizon LLC,Retail,South,700,3,9,SME
+B00862,UrbanMart Inc.,Retail,West,743,1,10,SME
+B00863,UrbanMart InternationalCo.,Manufacturing,West,681,5,6,SME
+B00864,Silverline InternationalManufacturing,Retail,East,601,1,15,Corporate
+B00865,Peak InternationalFoods,Transport,Northeast,654,0,9,SME
+B00866,Horizon Foods,Retail,Midwest,766,6,7,SME
+B00867,Silverline InternationalInc.,Retail,Midwest,577,5,11,SME
+B00868,Alpha Inc.,Retail,South,598,4,5,SME
+B00869,BlueRiver Solutions,Wholesale,West,686,3,11,SME
+B00870,Greenline Holdings,Technology,East,716,3,9,SME
+B00871,Silverline Industries,Transport,Midwest,723,3,9,SME
+B00872,Northside Manufacturing,Consumer Goods,East,624,3,9,SME
+B00873,Alpha Corporation LLC,Manufacturing,South,703,4,14,SME
+B00874,BlueRiver GlobalInc.,Energy,Midwest,798,3,6,SME
+B00875,SunPeak Industries,Energy,East,739,2,8,SME
+B00876,UrbanMart LLC,Technology,West,710,5,10,SME
+B00877,Northside GlobalFoods,Wholesale,East,729,3,8,SME
+B00878,Northside Manufacturing,Consumer Goods,West,659,2,10,SME
+B00879,Silverline InternationalManufacturing,Retail,Midwest,662,4,7,SME
+B00880,Silverline Co.,Consumer Goods,West,668,3,8,SME
+B00881,BlueRiver InternationalCo.,Wholesale,West,638,2,8,SME
+B00882,Peak GlobalTextiles,Retail,South,666,5,10,SME
+B00883,Alpha InternationalTextiles,Consumer Goods,Northeast,715,1,3,SME
+B00884,Horizon Manufacturing,Wholesale,Northeast,749,2,8,SME
+B00885,Northside GlobalIndustries,Energy,Midwest,727,2,14,SME
+B00886,Peak GlobalInc.,Energy,Northeast,683,4,8,SME
+B00887,Greenline GlobalLLC,Transport,East,704,1,10,SME
+B00888,Alpha Holdings,Technology,South,631,6,6,SME
+B00889,Silverline InternationalLLC,Manufacturing,East,678,4,9,Corporate
+B00890,UrbanMart InternationalManufacturing,Retail,South,583,1,9,Corporate
+B00891,Alpha Co.,Healthcare,Midwest,698,2,10,SME
+B00892,Silverline GlobalTextiles,Manufacturing,Midwest,738,4,9,SME
+B00893,Peak Manufacturing,Healthcare,East,776,4,7,SME
+B00894,UrbanMart InternationalHoldings,Consumer Goods,West,701,1,11,SME
+B00895,Northside GlobalInc.,Healthcare,South,703,3,11,SME
+B00896,UrbanMart GlobalFoods,Energy,South,729,4,8,SME
+B00897,UrbanMart GlobalSolutions,Consumer Goods,East,742,1,12,SME
+B00898,Silverline Solutions,Retail,West,749,1,12,SME
+B00899,Silverline Inc.,Healthcare,Northeast,647,1,6,SME
+B00900,SunPeak Inc.,Manufacturing,South,722,3,12,SME
+B00901,Alpha Holdings,Transport,Midwest,654,4,7,Corporate
+B00902,Greenline GlobalSolutions,Consumer Goods,West,554,3,11,SME
+B00903,Horizon InternationalTextiles,Wholesale,East,673,4,6,SME
+B00904,Silverline GlobalFoods,Retail,Northeast,697,3,9,SME
+B00905,Northside Solutions,Manufacturing,South,638,2,11,SME
+B00906,BlueRiver GlobalTextiles,Consumer Goods,East,673,4,11,SME
+B00907,Alpha Solutions,Retail,East,706,4,10,SME
+B00908,Silverline GlobalManufacturing,Energy,Northeast,683,4,6,SME
+B00909,BlueRiver InternationalCorporation,Manufacturing,South,704,3,7,SME
+B00910,Greenline Co.,Consumer Goods,South,817,10,9,SME
+B00911,BlueRiver Holdings,Energy,Northeast,683,4,9,SME
+B00912,Horizon Corporation,technology,East,730,3,8,SME
+B00913,SunPeak InternationalInc.,Manufacturing,East,710,5,3,SME
+B00914,Peak LLC,Retail,West,753,2,12,SME
+B00915,Silverline Inc.,Manufacturing,West,641,1,7,SME
+B00916,WestBridge InternationalHoldings,Wholesale,West,725,2,9,SME
+B00917,BlueRiver GlobalHoldings,Technology,West,681,0,13,SME
+B00918,Greenline Holdings,Technology,South,720,7,5,Corporate
+B00919,BlueRiver Inc.,Transport,Northeast,626,1,15,SME
+B00920,WestBridge InternationalManufacturing,Wholesale,West,578,4,7,Corporate
+B00921,UrbanMart InternationalSolutions,Wholesale,West,763,6,13,SME
+B00922,Greenline InternationalManufacturing,Retail,East,589,4,7,SME
+B00923,Peak Foods,Consumer Goods,South,662,2,10,SME
+B00924,Peak InternationalSolutions,Healthcare,Northeast,569,3,6,SME
+B00925,Greenline Textiles,Transport,Northeast,633,0,9,SME
+B00926,UrbanMart Solutions,Energy,West,697,2,7,SME
+B00927,WestBridge Co.,Wholesale,Northeast,695,4,3,SME
+B00928,UrbanMart Corporation,Consumer Goods,East,692,1,7,SME
+B00929,WestBridge GlobalFoods,Healthcare,East,669,2,12,Corporate
+B00930,Northside GlobalCo.,Consumer Goods,West,681,0,11,SME
+B00931,SunPeak InternationalLLC,Manufacturing,West,791,4,7,SME
+B00932,Horizon InternationalFoods,Consumer Goods,Midwest,809,4,8,SME
+B00933,Greenline Solutions,Technology,East,708,4,7,SME
+B00934,Peak Solutions,Retail,Midwest,687,6,7,Corporate
+B00935,Horizon Inc.,Healthcare,Midwest,658,3,5,SME
+B00936,Horizon Co.,Consumer Goods,Northeast,847,2,10,Corporate
+B00937,BlueRiver Foods,Transport,East,711,4,11,SME
+B00938,WestBridge Solutions,Transport,South,619,2,3,SME
+B00939,BlueRiver Foods,Healthcare,South,647,3,12,SME
+B00940,Alpha GlobalTextiles,Energy,South,674,3,8,SME
+B00941,Alpha Textiles,Wholesale,Midwest,703,2,10,SME
+B00942,Horizon InternationalCorporation,Manufacturing,Midwest,684,4,9,Corporate
+B00943,Greenline GlobalInc.,Wholesale,West,627,3,8,SME
+B00944,UrbanMart Industries,Retail,South,637,7,9,Corporate
+B00945,UrbanMart Textiles,Manufacturing,East,678,2,5,SME
+B00946,SunPeak GlobalManufacturing,Wholesale,East,661,4,8,SME
+B00947,Silverline GlobalFoods,Manufacturing,South,641,9,10,SME
+B00948,Northside InternationalIndustries,Healthcare,Midwest,685,7,12,SME
+B00949,WestBridge Holdings,Manufacturing,Midwest,660,5,7,SME
+B00950,Northside Foods,Consumer Goods,East,623,2,5,SME
+B00951,Silverline Solutions,Consumer Goods,Midwest,807,3,9,SME
+B00952,Peak InternationalLLC,Energy,South,710,2,11,SME
+B00953,SunPeak Industries,Healthcare,South,593,3,9,Corporate
+B00954,Horizon InternationalTextiles,Consumer Goods,West,835,3,9,SME
+B00955,UrbanMart GlobalInc.,Consumer Goods,East,675,4,9,SME
+B00956,BlueRiver GlobalHoldings,Energy,West,709,1,10,SME
+B00957,SunPeak GlobalManufacturing,Healthcare,Northeast,841,5,5,SME
+B00958,Horizon InternationalCo.,Consumer Goods,West,796,2,10,SME
+B00959,BlueRiver Manufacturing,Manufacturing,West,682,1,9,SME
+B00960,Silverline Foods,Manufacturing,East,605,2,3,SME
+B00961,BlueRiver InternationalInc.,Manufacturing,South,576,4,6,SME
+B00962,WestBridge GlobalManufacturing,Manufacturing,West,680,7,12,SME
+B00963,Alpha GlobalHoldings,Technology,East,813,3,9,Corporate
+B00964,SunPeak InternationalInc.,Transport,Northeast,771,3,12,SME
+B00965,WestBridge Manufacturing,Manufacturing,East,655,5,8,SME
+B00966,UrbanMart Corporation,Energy,Northeast,720,5,9,SME
+B00967,Alpha GlobalLLC,Retail,Northeast,706,2,11,SME
+B00968,Horizon InternationalIndustries,Wholesale,Midwest,604,4,9,Corporate
+B00969,Greenline InternationalManufacturing,Healthcare,Northeast,759,1,8,Corporate
+B00970,Silverline GlobalInc.,Consumer Goods,East,744,1,9,SME
+B00971,BlueRiver Textiles,Healthcare,East,767,9,7,SME
+B00972,Silverline Manufacturing,Wholesale,Midwest,706,2,14,SME
+B00973,Greenline InternationalIndustries,Wholesale,Midwest,599,1,5,SME
+B00974,Horizon Co.,energy,East,648,2,8,SME
+B00975,SunPeak GlobalTextiles,Technology,West,641,0,12,SME
+B00976,BlueRiver Textiles,Energy,Northeast,688,2,7,SME
+B00977,WestBridge GlobalIndustries,Energy,Midwest,704,1,8,SME
+B00978,UrbanMart InternationalLLC,Technology,Northeast,692,6,11,Corporate
+B00979,Peak InternationalIndustries,Healthcare,West,815,1,8,SME
+B00980,WestBridge GlobalCo.,Manufacturing,Midwest,662,4,10,SME
+B00981,Northside Manufacturing,Technology,South,665,4,9,SME
+B00982,SunPeak GlobalIndustries,Healthcare,Midwest,722,2,8,Corporate
+B00983,WestBridge InternationalIndustries,Energy,West,723,3,6,SME
+B00984,BlueRiver Industries,Transport,West,631,9,9,Corporate
+B00985,Alpha Inc,Healthcare,Northeast,697,5,5,SME
+B00986,UrbanMart Holdings,Retail,West,785,4,3,SME
+B00987,SunPeak Textiles,Retail,Northeast,614,5,9,SME
+B00988,Northside Industries,Energy,East,712,6,7,Corporate
+B00989,Northside Holdings,Transport,West,619,3,7,Corporate
+B00990,Peak InternationalInc.,Energy,South,652,3,5,SME
+B00991,Alpha Co.,Consumer Goods,Northeast,656,1,8,SME
+B00992,UrbanMart GlobalIndustries,Consumer Goods,East,626,7,11,SME
+B00993,UrbanMart InternationalTextiles,Energy,South,763,1,9,SME
+B00994,Peak Corporation,Retail,West,794,0,17,SME
+B00995,BlueRiver Foods,Transport,Northeast,595,3,6,SME
+B00996,Alpha Manufacturing,Energy,East,713,1,11,SME
+B00997,Greenline InternationalIndustries,Consumer Goods,West,598,3,10,SME
+B00998,WestBridge InternationalHoldings,Energy,West,572,1,11,SME
+B00999,Greenline InternationalManufacturing,Retail,Northeast,668,4,10,SME
+B01000,Greenline Textiles,Wholesale,Northeast,700,1,11,SME
