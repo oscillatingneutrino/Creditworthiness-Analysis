@@ -1,3 +1,5 @@
+
+-- NOTE: THE CODE BELOW ONLY WORKS IN POSTGRE AND SQL SERVER
 WITH rcte AS(
 	SELECT
 		borrower_id,
@@ -8,6 +10,8 @@ WITH rcte AS(
 )
     
 UPDATE finances f
+INNER JOIN rcte r
+	ON r.borrower_id = f.borrower_id
 SET
-	f.capex = h_capex_r * revenue
+	f.capex = r.h_capex_r * f.revenue
 WHERE f.capex IS NULL
