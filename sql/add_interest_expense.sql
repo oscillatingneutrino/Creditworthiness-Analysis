@@ -1,3 +1,5 @@
+
+-- ONLY WORKS ON POSTGRE AND SQL Server
 WITH cte AS(
 	SELECT
 		borrower_id,
@@ -6,7 +8,9 @@ WITH cte AS(
         GROUP BY borrower_id
 )
 
-UPDATE finances f	
+UPDATE finances f
+INNER JOIN cte c
+	ON f.borrower_id = c.borrower_id
 SET 
-	f.interest_expense = f.total_debt * w_avg_rate
+	f.interest_expense = f.total_debt * c.w_avg_rate
 WHERE f.interest_expense IS NULL
