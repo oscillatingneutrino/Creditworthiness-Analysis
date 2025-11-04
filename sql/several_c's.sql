@@ -6,7 +6,7 @@ SELECT
 	CASE WHEN interest_expense IS NOT NULL AND interest_expense <> 0 THEN ebit/interest_expense
 		ELSE 0 END AS ebit_coverage_ratio,
 	CASE WHEN ebitda IS NOT NULL AND interest_expense <> 0 THEN ebitda/interest_expense
-		ELSE 0 END AS sdlr, -- fix later
+		ELSE 0 END AS ebitda_coverage_ratio,
 	CASE WHEN ebitda IS NOT NULL AND interest_expense <> 0 THEN (ebitda - capex)/interest_expense
 		ELSE (ebit - capex)/interest_expense END AS capex_adjusted_coverage_ratio, 
 	(accounts_receivable/revenue) * 90 AS AR,
