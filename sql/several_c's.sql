@@ -1,5 +1,27 @@
-WITH cte AS (
+	WITH cte AS (
+	SELECT
+			borrower_id,
+			macro.industry,
+			macro.region,
+			cloan.interest_rate - macro.avg_interest_rate AS loan_pricing_sensitivity
+	FROM clean_loan cloan
+		JOIN borrowers b
+			ON cloan.borrower_id = b.borrower_id
+		JOIN macro
+			ON b.industry = macro.industry
+			AND b.region = macro.region
+),
 
+colcovr AS (
+	SELECT
+		col.borrower_id,
+		SUM(col.appraised_value)/SUM(cloan.loan_amount) AS collateral_coverage_ratio
+	FROM collateral col
+		JOIN clean_loan cloan
+			ON col.borrower_id = cloan.borrower_id
+	GROUP BY col.borrower_id
+)
+	
 SELECT
 	CASE WHEN ebitda IS NOT NULL THEN total_debt/ebitda
 		ELSE total_debt/ebit END AS tlr,
@@ -20,9 +42,9 @@ SELECT
     
 	(accounts_payable/cogs) * 90 AS AP,
     
-	(invenstory/cogs) * 90 AS inventory_days,
+	(inventory/cogs) * 90 AS inventory_days,
     
-	(accounts_receivable/revenue) * 90 + (invenstory/cogs) * 90 - (accounts_payable/cogs) * 90 AS CCC,
+	(accounts_receivable/revenue) * 90 + (inventory/cogs) * 90 - (accounts_payable/cogs) * 90 AS CCC,
 	
 	total_debt/equity AS debt_to_equity,
 
@@ -34,15 +56,13 @@ SELECT
 
 	cash/total_debt AS liquidity_ratio,
 
-	ROUND(STDDEV_SAMP(operating_cash_flow),0) AS stdev_op_cash_flow,
-
-	col.appraised_value/cloan.loan_amount AS collateral_coverage_ratio,
+	ROUND(STDDEV_SAMP(operating_cash_flow) OVER (PARTITION BY c.borrower_id),0) AS stdev_op_cash_flow,
 
 	cloan.loan_amount/operating_cash_flow AS debt_service_ratio,
 
 	cloan.loan_status AS loan_status,
 
-	
+	cte.loan_pricing_sensitivity
 	
 FROM clean_financials c
 	LEFT JOIN borrowers b
@@ -51,4 +71,6 @@ JOIN collateral col
 	ON c.borrower_id = col.borrower_id
 JOIN clean_loan cloan
 	ON c.borrower_id = cloan.borrower_id
+JOIN cte
+	ON cte.borrower_id = c.borrower_id
 	
