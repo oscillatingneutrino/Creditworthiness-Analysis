@@ -1,6 +1,6 @@
 	WITH cte AS (
 	SELECT
-			borrower_id,
+			cloan.borrower_id,
 			macro.industry,
 			macro.region,
 			cloan.interest_rate - macro.avg_interest_rate AS loan_pricing_sensitivity
@@ -23,6 +23,8 @@ colcovr AS (
 )
 	
 SELECT
+	c.borrower_id,
+    
 	CASE WHEN ebitda IS NOT NULL THEN total_debt/ebitda
 		ELSE total_debt/ebit END AS tlr,
 	
@@ -65,7 +67,7 @@ SELECT
 	cte.loan_pricing_sensitivity
 	
 FROM clean_financials c
-	LEFT JOIN borrowers b
+JOIN borrowers b
 		ON c.borrower_id = b.borrower_id
 JOIN collateral col
 	ON c.borrower_id = col.borrower_id
