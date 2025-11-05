@@ -40,6 +40,8 @@ The following metrics were used to assess the financial stability of the simulat
 
 
 ### Defining Creditworthiness
+Although individually useful, the above metrics can only determine an individual's credit worthiness when assessed as components of a larger sum. Doing justice to each of these metrics, 
+
 
 ### Credit Forecasting
 
