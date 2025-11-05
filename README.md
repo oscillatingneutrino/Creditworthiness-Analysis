@@ -16,26 +16,26 @@ Determining whether business is credit-worthy is dependent on the character, cap
 ### Key Creditworthiness Indicators
 The following metrics were used to assess the financial stability of the simulated companies:
 
-| Metric | Description | Purpose |
-|---|---|---|
-| Loan Pricing Sensitivity |  |  |
-| Collateral Coverage Ratio |  |  |
-| TLR |  |  |
-| SLDR |  |  |
-| EBIT Coverage Ratio |  |  |
-| EBITDA Coverage Ratio |  |  |
-| CAPEX Adjusted Coverage Ratio |  |  |
-| AR |  |  |
-| AP |  |  |
-| Inventory Days |  |  |
-| CCC |  |  |
-| Debt to Equity |  |  |
-| Operating Cash Flow Coverage |  |
-| Profit Margin |  |  |
-| Liquidity Ratio |  |  |
-| Operating Cash Flow Standard Deviation  |  |  |
-| Debt Service Ratio |  |  |
-| Loan Status |  |  |
+| Metric | Purpose |
+|---|---|
+| Loan Pricing Sensitivity | Measures the perceived borrower risk relative to other borrowers |
+| Collateral Coverage Ratio | Evaluates the security level available to lenders |
+| TLR (Total Debt to EBITDA)| Indicates the leverage and the borrower's ability to repay the dept from the earnings |
+| SLDR (Senior Debt to EBITDA)| Evalutes the burden of priority debt relative to operating performance |
+| EBIT Coverage Ratio | Examines how easily operating income covers interest payments |
+| EBITDA Coverage Ratio | Measures the businesses' cash-based capacity to meet interest payments  |
+| CAPEX Adjusted Coverage Ratio | Assesses the ability to service debt after accounting for reinvestment needs |
+| AR | Measures the length of time it takes to collect money from customers |
+| AP | Measures how long it takes for the company to pay back its suppliers |
+| Inventory Days | Displays the average amount of days inventory is held before being sold |
+| CCC | Cash Conversion Cycle; encapsulates the total efficiency of converting investments into cash flow |
+| Debt to Equity | Shows financial leverage and long-term solvency |
+| Operating Cash Flow Coverage | Determines the ability to service debt through generated cash |
+| Profit Margin | Displays the profitability |
+| Liquidity Ratio | Shows the ability to cover debts and short-term liquidity |
+| Operating Cash Flow Standard Deviation  | Covers cash flow volatility |
+| Debt Service Ratio | Determines the sustainability of paying off debts |
+| Loan Status | Shows whether a company has paid off a loan |
 
 
 
