@@ -18,8 +18,25 @@ The following metrics were used to assess the financial stability of the simulat
 
 | Metric | Description | Purpose |
 |---|---|---|
-| Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
-| Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
+| Loan Pricing Sensitivity |  |  |
+| Collateral Coverage Ratio |  |  |
+| TLR |  |  |
+| SLDR |  |  |
+| EBIT Coverage Ratio |  |  |
+| EBITDA Coverage Ratio |  |  |
+| CAPEX Adjusted Coverage Ratio |  |  |
+| AR |  |  |
+| AP |  |  |
+| Inventory Days |  |  |
+| CCC |  |  |
+| Debt to Equity |  |  |
+| Operating Cash Flow Coverage |  |
+| Profit Margin |  |  |
+| Liquidity Ratio |  |  |
+| Operating Cash Flow Standard Deviation  |  |  |
+| Debt Service Ratio |  |  |
+| Loan Status |  |  |
+
 
 
 ### Defining Creditworthiness
