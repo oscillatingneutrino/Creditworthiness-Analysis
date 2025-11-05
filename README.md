@@ -28,7 +28,7 @@ The following metrics were used to assess the financial stability of the simulat
 | AR | Measures the length of time it takes to collect money from customers |
 | AP | Measures how long it takes for the company to pay back its suppliers |
 | Inventory Days | Displays the average amount of days inventory is held before being sold |
-| CCC | Cash Conversion Cycle; encapsulates the total efficiency of converting investments into cash flow |
+| CCC (Cash Conversion Cycle) | Encapsulates the total efficiency of converting investments into cash flow |
 | Debt to Equity | Shows financial leverage and long-term solvency |
 | Operating Cash Flow Coverage | Determines the ability to service debt through generated cash |
 | Profit Margin | Displays the profitability |
