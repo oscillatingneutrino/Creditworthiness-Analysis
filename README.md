@@ -16,7 +16,7 @@ Determining whether business is credit-worthy is dependent on the character, cap
 ### Key Creditworthiness Indicators
 The following metrics were used to assess the financial stability of the simulated companies:
 
-| Header 1 | Header 2 | Header 3 |
+| Metric | Description | Purpose |
 |---|---|---|
 | Row 1, Cell 1 | Row 1, Cell 2 | Row 1, Cell 3 |
 | Row 2, Cell 1 | Row 2, Cell 2 | Row 2, Cell 3 |
