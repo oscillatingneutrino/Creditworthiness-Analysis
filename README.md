@@ -16,7 +16,7 @@ Determining whether business is credit-worthy is dependent on the character, cap
 ### Key Creditworthiness Indicators
 The following metrics were used to assess the financial stability of the simulated companies:
 
-| Metric | Condition|
+| Metric | Purpose |
 |---|---|
 | Loan Pricing Sensitivity | Measures the perceived borrower risk relative to other borrowers |
 | Collateral Coverage Ratio | Evaluates the security level available to lenders |
@@ -43,7 +43,7 @@ The following metrics were used to assess the financial stability of the simulat
 ### Defining Creditworthiness
 Although individually useful, the above metrics can only determine an individual's credit worthiness when assessed as components of a larger sum. Doing justice to each of these metrics, the following conditions were used in order to determine whether or not an individual is creditworthy:
 
-| Metric | Purpose | Condition | Condition | Condition | Condition |
+| Metric | Condition | Condition | Condition | Condition | Condition |
 |---|---|---|---|---|---|
 | Collateral Coverage Ratio | <1 Bad | 1-2 Good | >2 Overcollaterized | --- | --- |
 | TLR | >5 Problematic | 3-5 Moderate | <3 Good | --- | --- |
