@@ -118,7 +118,8 @@ SELECT
 	q.liquidity_ratio,
 	st.stdev_op_cash_flow,
 	l.debt_service_ratio,
-	l.loan_status
+	l.loan_status,
+	b.credit_score
 FROM quantities q
 	LEFT JOIN cte
 		ON q.borrower_id = cte.borrower_id
@@ -128,3 +129,5 @@ FROM quantities q
 						ON q.borrower_id = l.borrower_id
 							LEFT JOIN standard_dev st
 								ON q.borrower_id = st.borrower_id
+									LEFT JOIN borrowers b
+										ON q.borrower_id = b.borrower_id
