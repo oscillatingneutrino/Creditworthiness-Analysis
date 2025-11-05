@@ -43,7 +43,24 @@ The following metrics were used to assess the financial stability of the simulat
 ### Defining Creditworthiness
 Although individually useful, the above metrics can only determine an individual's credit worthiness when assessed as components of a larger sum. Doing justice to each of these metrics, the following conditions were used in order to determine whether or not an individual is creditworthy:
 
-
+| Metric | Purpose | Condition | Condition | Condition | Condition |
+|---|---|---|---|---|---|
+| Collateral Coverage Ratio | <1 Bad | 1-2 Good | >2 Overcollaterized | --- | --- |
+| TLR | >5 Problematic | 3-5 Moderate | <3 Good | --- | --- |
+| SDLR | >4 Concerning | 3-4 Elevated | 2-3 Good | <2 Excellent | --- |
+| EBIT Coverage Ratio | <1 Bad | 1-2 Moderate | >2 Good | >3 Very Good | --- |
+| EBITDA Coverage Ratio | <1.5 Bad | 1.5-3 Satisfactory | >3 Healthy | --- | --- |
+| CAPEX Adjusted Coverage Ratio | <1 Bad | 1 Ok | 1.25-2 Healthy | >2 Strong | --- |
+| AP | 0-30 Good | >30 Bad | --- | --- | --- |
+| AR | 0-60 Good | >60 Bad | --- | --- | --- |
+| Inventory Days | 0-60 Good | --- | --- | --- | --- |
+| CCC | 0-45 Good | --- | --- | --- | --- |
+| Debt to Equity | >2 Bad | 1.0-1.5 Balanced | <1 Good | --- | --- |
+| Operating Cash Flow Coverage | <1 Bad | 1-2 Healthy | >2 Strong | --- | --- | 
+| Operating Margin | <0.005 Bad | 0.1 Average | 0.1-0.2 Healthy | >0.2 | --- |
+| Liquidity Ratio | 1.5-2.0 Good | Else Bad | --- | --- | --- |
+| Debt to Service Ratio | <1 Risky | 1.0-1.24 Less Healthy | 1.25-1.49 Acceptable | >1.50 strong | --- |
+| Credit Score | 300-579 Poor | 580 - 669 Fair | 670 - 739 Good | 740 - 799 Very Good | 800 - 850 Exceptional |
 
 ### Credit Forecasting
 
