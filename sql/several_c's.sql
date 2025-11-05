@@ -47,9 +47,9 @@ quantities AS (
 	
 	AVG((accounts_receivable/revenue) * 90) AS AR,
     
-	AVG((accounts_payable/cogs) * 90 AS) AP,
+	AVG((accounts_payable/cogs) * 90) AS AP,
     
-	AVG((inventory/cogs)) * 90 AS inventory_days,
+	AVG((inventory/cogs) * 90) AS inventory_days,
     
 	AVG((accounts_receivable/revenue) * 90 + (inventory/cogs) * 90 - (accounts_payable/cogs) * 90) AS CCC,
 	
@@ -61,23 +61,34 @@ quantities AS (
 
 	-- b.credit_score,
 
-	AVG(cash/total_debt) AS liquidity_ratio,
+	AVG(cash/total_debt) AS liquidity_ratio
 
-	STDDEV_SAMP(operating_cash_flow) OVER (PARTITION BY c.borrower_id) AS stdev_op_cash_flow
-
-	FROM clean_financials
+	FROM clean_financials c
 
 	GROUP BY borrower_id
 
 ),
 
-loan_quantities AS (
+standard_dev AS ( 
+	SELECT
+		borrower_id,
+		
+		STDDEV_SAMP(operating_cash_flow) AS stdev_op_cash_flow
 
+	FROM clean_financials
+
+	GROUP BY borrower_id
+),
+		
+loan_quantities AS (
+	
+    SELECT
+    
 	borrower_id,
 		
 	AVG(loan_amount/operating_cash_flow) AS debt_service_ratio,
 
-	MAX(loan_status) AS loan_status,
+	MAX(loan_status) AS loan_status
 
 	FROM clean_loan
 
@@ -89,8 +100,31 @@ loan_quantities AS (
 )
 
 SELECT
-	q.borrower_id
+	q.borrower_id,
 	cte.loan_pricing_sensitivity,
-	
-
-	
+	col.collateral_coverage_ratio,
+	q.tlr,
+	q.sdlr,
+	q.ebit_coverage_ratio,
+	q.ebitda_coverage_ratio,
+	q.capex_adjusted_coverage_ratio,
+	q.AR,
+	q.AP,
+	q.inventory_days,
+	q.CCC,
+	q.debt_to_equity,
+	q.operating_cash_flow_coverage,
+	q.profit_margin,
+	q.liquidity_ratio,
+	st.stdev_op_cash_flow,
+	l.debt_service_ratio,
+	l.loan_status
+FROM quantities q
+	LEFT JOIN cte
+		ON q.borrower_id = cte.borrower_id
+			LEFT JOIN colcovr col
+				ON q.borrower_id = col.borrower_id
+					LEFT JOIN loan_quantities l
+						ON q.borrower_id = l.borrower_id
+							LEFT JOIN standard_dev st
+								ON q.borrower_id = st.borrower_id
