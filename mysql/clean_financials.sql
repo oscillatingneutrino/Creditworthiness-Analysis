@@ -1,0 +1,21 @@
+CREATE TABLE `clean_financials` (
+  `borrower_id` text,
+  `year` int DEFAULT NULL,
+  `revenue` bigint DEFAULT NULL,
+  `cogs` bigint DEFAULT NULL,
+  `ebitda` bigint DEFAULT NULL,
+  `ebit` bigint DEFAULT NULL,
+  `interest_expense` bigint DEFAULT NULL,
+  `total_debt` bigint DEFAULT NULL,
+  `senior_debt` bigint DEFAULT NULL,
+  `cash` bigint DEFAULT NULL,
+  `equity` bigint DEFAULT NULL,
+  `accounts_receivable` bigint DEFAULT NULL,
+  `accounts_payable` bigint DEFAULT NULL,
+  `inventory` bigint DEFAULT NULL,
+  `capex` bigint DEFAULT NULL,
+  `operating_cash_flow` bigint DEFAULT NULL,
+  `FLAG_EMPTY_EBITDA` int DEFAULT NULL,
+  `FLAG_INTEREST_EXPENSE` int DEFAULT NULL,
+  `FLAG_CAPEX` int DEFAULT NULL
+)
