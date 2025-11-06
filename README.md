@@ -43,20 +43,20 @@ Although individually useful, the above metrics can only determine an individual
 | Metric | Condition | Condition | Condition | Condition | Condition |
 |---|---|---|---|---|---|
 | Collateral Coverage Ratio | <1 Bad | 1-2 Good | >2 Overcollaterized | --- | --- |
-| TLR | >5 Problematic | 3-5 Moderate | <3 Good | --- | --- |
-| SDLR | >4 Concerning | 3-4 Elevated | 2-3 Good | <2 Excellent | --- |
-| EBIT Coverage Ratio | <1 Bad | 1-2 Moderate | >2 Good | >3 Very Good | --- |
-| EBITDA Coverage Ratio | <1.5 Bad | 1.5-3 Satisfactory | >3 Healthy | --- | --- |
-| CAPEX Adjusted Coverage Ratio | <1 Bad | 1 Ok | 1.25-2 Healthy | >2 Strong | --- |
+| TLR | >5 Bad | 3-5 Moderate | <3 Good | --- | --- |
+| SDLR | >4 Concerning | 3-4 Bad | 2-3 Good | <2 Excellent | --- |
+| EBIT Coverage Ratio | <1 Bad | 1-2 Moderate | >2 Good | >3 Excellent | --- |
+| EBITDA Coverage Ratio | <1.5 Bad | 1.5-3 Satisfactory | >3 Good | --- | --- |
+| CAPEX Adjusted Coverage Ratio | <1 Bad | 1-1.24 Ok | 1.25-2 Good | >2 Excellent | --- |
 | AP | 0-30 Good | >30 Bad | --- | --- | --- |
 | AR | 0-60 Good | >60 Bad | --- | --- | --- |
 | Inventory Days | 0-60 Good | --- | --- | --- | --- |
 | CCC | 0-45 Good | --- | --- | --- | --- |
-| Debt to Equity | >2 Bad | 1.0-1.5 Balanced | <1 Good | --- | --- |
-| Operating Cash Flow Coverage | <1 Bad | 1-2 Healthy | >2 Strong | --- | --- | 
-| Operating Margin | <0.005 Bad | 0.1 Average | 0.1-0.2 Healthy | >0.2 High | --- |
+| Debt to Equity | >2 Bad | 1.0-1.5 Satisfactory | <1 Good | --- | --- |
+| Operating Cash Flow Coverage | <1 Bad | 1-2 Good | >2 Excellent | --- | --- | 
+| Operating Margin | <0.005 Bad | 0.1 Average | 0.1-0.2 Good | >0.2 Excellent | --- |
 | Liquidity Ratio | 1.5-2.0 Good | Else Bad | --- | --- | --- |
-| Debt to Service Ratio | <1 Risky | 1.0-1.24 Less Healthy | 1.25-1.49 Acceptable | >1.50 strong | --- |
+| Debt to Service Ratio | <1 Bad | 1.0-1.24 Moderate | 1.25-1.49 Good | >1.50 Excellent | --- |
 | Credit Score | 300-579 Poor | 580 - 669 Fair | 670 - 739 Good | 740 - 799 Very Good | 800 - 850 Exceptional |
 
 This system was used to create a grading scale, where each of the metrics was assigned a point value with a particular weight to it, depending on the relevance of the metric to the portrayal of the creditworthiness of the business.
