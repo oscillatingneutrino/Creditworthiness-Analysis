@@ -42,7 +42,7 @@ Although individually useful, the above metrics can only determine an individual
 
 | Metric | Condition | Condition | Condition | Condition | Condition |
 |---|---|---|---|---|---|
-| Collateral Coverage Ratio | <1 Bad | 1-2 Good | >2 Overcollaterized | --- | --- |
+| Collateral Coverage Ratio | <1 Bad | 1-2 Good | >2 Excellent | --- | --- |
 | TLR | >5 Bad | 3-5 Moderate | <3 Good | --- | --- |
 | SDLR | >4 Concerning | 3-4 Bad | 2-3 Good | <2 Excellent | --- |
 | EBIT Coverage Ratio | <1 Bad | 1-2 Moderate | >2 Good | >3 Excellent | --- |
