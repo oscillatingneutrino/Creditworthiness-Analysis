@@ -41,7 +41,7 @@ The following metrics were used to assess the financial stability of the simulat
 
 
 ### Defining Creditworthiness
-Although individually useful, the above metrics can only determine an individual's credit worthiness when assessed as components of a larger sum. Doing justice to each of these metrics, the following conditions were used in order to determine whether or not an individual is creditworthy:
+Although individually useful, the above metrics can only determine an individual's credit worthiness when assessed as components of a larger sum. Doing justice to each of these metrics, the following conditions were used to assess the quality of each business:
 
 | Metric | Condition | Condition | Condition | Condition | Condition |
 |---|---|---|---|---|---|
@@ -62,8 +62,12 @@ Although individually useful, the above metrics can only determine an individual
 | Debt to Service Ratio | <1 Risky | 1.0-1.24 Less Healthy | 1.25-1.49 Acceptable | >1.50 strong | --- |
 | Credit Score | 300-579 Poor | 580 - 669 Fair | 670 - 739 Good | 740 - 799 Very Good | 800 - 850 Exceptional |
 
-### Credit Forecasting
+This system was used to create a grading scale, where each of the metrics was assigned a point value with a particular weight to it, depending on the relevance of the metric to the portrayal of the creditworthiness of the business.
+
+### Forecasting
 
 ### Clarifications
+The data that was used for this project contained missing information pertinent to the calculation of several variables; as such, the sample results provided displays multiple NULL values.
+
 
 ### References
