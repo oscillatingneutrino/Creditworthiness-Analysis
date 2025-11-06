@@ -67,7 +67,7 @@ This system was used to create a grading scale, where each of the metrics was as
 ### Forecasting
 
 ### Clarifications
-The data that was used for this project contained missing information pertinent to the calculation of several variables; as such, the sample results provided displays multiple NULL values.
+The data that was used for this project contained missing information pertinent to the calculation of several variables; as such, the sample results provided displays multiple NULL values. For this example, whenever a NULL value is encountered, it is treated as 0.
 
 
 ### References
