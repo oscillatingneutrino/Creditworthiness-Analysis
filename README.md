@@ -61,10 +61,10 @@ Although individually useful, the above metrics can only determine an individual
 
 This system was used to create a grading scale, where each of the metrics was assigned a point value with a particular weight to it, depending on the relevance of the metric to the portrayal of the creditworthiness of the business.
 
-### Forecasting
+## Forecasting
 
-### Clarifications
-The data that was used for this project contained missing information pertinent to the calculation of several variables; as such, the sample results provided displays multiple NULL values. For this example, whenever a NULL value is encountered, it is treated as 0.
+## Clarifications
+The data that was used for this project contained missing information pertinent to the calculation of several variables; as such, the sample results provided displays multiple NULL values. For this example, whenever a NULL value is encountered, it is treated as 0. The metrics used to determine the creditworthiness were taken to be applied in the most general sense; in reality, some values and their indication of a business's health is sensitive to the industry it's a part of.
 
 
 ### References
