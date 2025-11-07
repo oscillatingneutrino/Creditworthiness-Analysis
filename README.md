@@ -49,15 +49,17 @@ Although individually useful, the above metrics can only determine an individual
 | CAPEX Adjusted Coverage Ratio | <1 Bad | 1-1.24 Ok | 1.25-2 Good | >2 Excellent | --- |
 | AP | 0-30 Good | >30 Bad | --- | --- | --- |
 | AR | 0-60 Good | >60 Bad | --- | --- | --- |
-| Inventory Days | 0-60 Good | --- | --- | --- | --- |
-| CCC | 0-45 Good | --- | --- | --- | --- |
+| Inventory Days | 0-60 Good | >60 Bad | --- | --- | --- |
+| CCC | 0-45 Good | >45 Bad | --- | --- | --- |
 | Debt to Equity | >2 Bad | 1.0-1.5 Satisfactory | <1 Good | --- | --- |
 | Operating Cash Flow Coverage | <1 Bad | 1-2 Good | >2 Excellent | --- | --- | 
 | Profit Margin | <0.05 Bad | 0.1 Average | 0.1-0.2 Good | >0.2 Excellent | --- |
 | Liquidity Ratio | 1.5-2.0 Good | Else Bad | --- | --- | --- |
 | Credit Score | 300-579 Poor | 580 - 669 Fair | 670 - 739 Good | 740 - 799 Very Good | 800 - 850 Exceptional |
 
-This system was used to create a grading scale, where each of the metrics was assigned a point value with a particular weight to it, depending on the relevance of the metric to the portrayal of the creditworthiness of the business. A number was assigned to each category based on the rating and the level of characterization possible; e.g. someone with a good AP value would be given a score of 1, and value of 0 if they had a bad score, or someone with an excellent CAPEX Adjusted Coverage Ratio was given a 4, and someone with an ok score was given 1 point.
+This system was used to create a grading scale, where each of the metrics was assigned a point value. A number was assigned to each category based on the rating and the level of characterization possible; e.g. someone with a good AP value would be given a score of 1, and a value of 0 if they had a bad score, or someone with an excellent CAPEX Adjusted Coverage Ratio was given a 4, and someone with an ok score was given 1 point.
+
+The points were then added to give a total score. In order to be defined as credit worthy, a ratio of total score to the maximum possible score would have to reach a minimum value of 0.79 (this number is the same number used as the minimum value of credit score still determined to be good out of the maximum possible value). In this study, the maximum possible value was 31.
 
 ## Forecasting
 
