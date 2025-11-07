@@ -4,10 +4,10 @@
 - [Executive Summary](#Executive-Summary)
 - [Key Creditworthiness Indicators](#Key-Creditworthiness-Indicators)
 - [Defining and Determining Creditworthiness](#Defining-Creditworthiness)
-- [Clarifications](#Clarifications)
+- [Applicability and Limitations](#Applicability-and-Limitations)
   
 ## Executive Summary
-Determining whether business is credit-worthy is dependent on the character, capacity, capital, collateral, and conditions. To quantify these constituents and test their ability to satisfy set conditions requires an in-depth look into financial statements containing the operational history of the business, financial practices, its ability to pay back loans, and external economic factors. Using simulated data with missing values, this project used Excel, Python, and SQL to obtain useful metrics such as total debt to EBITDA, Interest Coverage Ratio, and Operating Cash Flow Coverage to ascertain the creditworthiness of a company. Furthermore, the simulated data was used to forecast the credit of a company to determine its financial stability.
+Determining whether business is credit-worthy is dependent on the character, capacity, capital, collateral, and conditions. To quantify these constituents and test their ability to satisfy set conditions requires an in-depth look into financial statements containing the operational history of the business, financial practices, its ability to pay back loans, and external economic factors. Using simulated data, this project used Google Sheets, Python, and SQL to obtain useful metrics ascertain the creditworthiness of a company. Upon reviewing the results, the applicability and limitations of this method of credit analyses is examined.
 
 ## Key Creditworthiness Indicators
 The following metrics were used to assess the financial stability of the simulated companies:
@@ -16,8 +16,8 @@ The following metrics were used to assess the financial stability of the simulat
 |---|---|
 | Loan Pricing Sensitivity | Measures the perceived borrower risk relative to other borrowers |
 | Collateral Coverage Ratio | Evaluates the security level available to lenders |
-| TLR (Total Debt to EBITDA)| Indicates the leverage and the borrower's ability to repay the dept from the earnings |
-| SLDR (Senior Debt to EBITDA)| Evalutes the burden of priority debt relative to operating performance |
+| TLR (Total Debt to EBITDA)| Indicates the leverage and the borrower's ability to repay the debt from the earnings |
+| SLDR (Senior Debt to EBITDA)| Evaluates the burden of priority debt relative to operating performance |
 | EBIT Coverage Ratio | Examines how easily operating income covers interest payments |
 | EBITDA Coverage Ratio | Measures the businesses' cash-based capacity to meet interest payments  |
 | CAPEX Adjusted Coverage Ratio | Assesses the ability to service debt after accounting for reinvestment needs |
@@ -36,7 +36,7 @@ The following metrics were used to assess the financial stability of the simulat
 
 
 ## Defining and Determining Creditworthiness
-Although individually useful, the above metrics can only determine an individual's credit worthiness when assessed as components of a larger sum. Doing justice to each of these metrics, the following conditions were used to assess the quality of each business:
+Although individually useful, the above metrics can only determine an individual's credit worthiness when assessed as components of a larger sum. The following conditions were used to assess the quality of each business:
 
 | Metric | Condition | Condition | Condition | Condition | Condition |
 |---|---|---|---|---|---|
@@ -56,12 +56,15 @@ Although individually useful, the above metrics can only determine an individual
 | Liquidity Ratio | 1.5-2.0 Good | Else Bad | --- | --- | --- |
 | Credit Score | 300-579 Poor | 580 - 669 Fair | 670 - 739 Good | 740 - 799 Very Good | 800 - 850 Exceptional |
 
-This system was used to create a grading scale, where each of the metrics was assigned a point value. A number was assigned to each category based on the rating and the level of characterization possible; e.g. someone with a good AP value would be given a score of 1, and a value of 0 if they had a bad score, or someone with an excellent CAPEX Adjusted Coverage Ratio was given a 4, and someone with an ok score was given 1 point.
+This system was used to create a grading scale, where each of the metrics was assigned a point value. The point value assigned to each category was based on the level of characterization possible; e.g. someone with an excellent CAPEX Adjusted Coverage Ratio was given a 4, and someone with an ok score was given 1 point.
 
-The points were then added to give a total score. In order to be defined as credit worthy, a ratio of total score to the maximum possible score would have to reach a minimum value of 0.79 (this number is the same number used as the minimum value of credit score still determined to be good out of the maximum possible value). In this study, the maximum possible value was 31.
+The points were then added to give a total score and assessed as a ratio to the maximum number of points possible (31). In order to be defined as credit worthy, a minimum ratio of total score to the maximum possible score of 0.79 was required (this number is the same number used as the minimum value of credit score still determined to be good out of the maximum possible value).
 
-## Clarifications
+## Applicability and Limitations
+
 The data that was used for this project contained missing information pertinent to the calculation of several variables; as such, the sample results provided displays multiple NULL values. For this example, whenever a NULL value is encountered, it is treated as 0. The metrics used to determine the creditworthiness were taken to be applied in the most general sense; in reality, some values and their indication of a business's health is sensitive to the industry it's a part of.
 
 
 ### References
+
+
