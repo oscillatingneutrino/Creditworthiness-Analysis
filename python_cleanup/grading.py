@@ -2,13 +2,13 @@ import numpy as np
 import pandas as pd
 
 
-df = pd.read_csv('Users/d404me/Downloads/results2.csv')
+df = pd.read_csv('/Users/d404me/Downloads/please.csv')
 
-values2 = ["0","1"]
-values3 = ["0", "1", "2"]
-values3odd = ["0","1","0"]
-values4 = ["0","1","2","3"]
-values5 = ["0","1","2","3","4"]
+values2 = [0,1]
+values3 = [0, 1, 2]
+values3odd = [0,1,0]
+values4 = [0,1,2,3]
+values5 = [0,1,2,3,4]
 
 conditions = [ (df["collateral_coverage_ratio"]<1), 
              
@@ -160,7 +160,7 @@ df["operating_cash_flow_coverage_rating"] = np.select(conditions11,values3)
 
 conditions12 = [ (df["profit_margin"]<0.05), 
              
-              (df["profit_margin"]>=0.005) & (df["profit"]<0.1),
+              (df["profit_margin"]>=0.005) & (df["profit_margin"]<0.1),
               
               (df["profit_margin"]>0.1) & (df["profit_margin"]<0.2),
               
