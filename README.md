@@ -4,7 +4,6 @@
 - [Executive Summary](#Executive-Summary)
 - [Key Creditworthiness Indicators](#Key-Creditworthiness-Indicators)
 - [Defining and Determining Creditworthiness](#Defining-Creditworthiness)
-- [Forecasting](#Credit-Forecasting)
 - [Clarifications](#Clarifications)
   
 ## Executive Summary
