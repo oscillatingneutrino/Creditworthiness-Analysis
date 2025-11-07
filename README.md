@@ -56,7 +56,6 @@ Although individually useful, the above metrics can only determine an individual
 | Operating Cash Flow Coverage | <1 Bad | 1-2 Good | >2 Excellent | --- | --- | 
 | Operating Margin | <0.05 Bad | 0.1 Average | 0.1-0.2 Good | >0.2 Excellent | --- |
 | Liquidity Ratio | 1.5-2.0 Good | Else Bad | --- | --- | --- |
-| Debt to Service Ratio | <1 Bad | 1.0-1.24 Moderate | 1.25-1.49 Good | >1.50 Excellent | --- |
 | Credit Score | 300-579 Poor | 580 - 669 Fair | 670 - 739 Good | 740 - 799 Very Good | 800 - 850 Exceptional |
 
 This system was used to create a grading scale, where each of the metrics was assigned a point value with a particular weight to it, depending on the relevance of the metric to the portrayal of the creditworthiness of the business. A number was assigned to each category based on the rating and the level of characterization possible; e.g. someone with a good AP value would be given a score of 1, and value of 0 if they had a bad score, or someone with an excellent CAPEX Adjusted Coverage Ratio was given a 4, and someone with an ok score was given 1 point.
