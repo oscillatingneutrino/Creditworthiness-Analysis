@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-df = pd.read_csv('/Users/d404me/Downloads/please.csv')
+df = pd.read_csv('please.csv')
 
 values2 = [0,1]
 values3 = [0, 1, 2]
