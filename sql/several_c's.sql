@@ -36,25 +36,14 @@ quantities AS (
 	AVG(CASE WHEN ebitda IS NOT NULL THEN senior_debt/ebitda
 		ELSE senior_debt/ebit END) AS sdlr,
 	
-	AVG(CASE WHEN interest_expense IS NOT NULL AND interest_expense <> 0 AND 
-			THEN ebit/interest_expense
-				END) AS ebit_coverage_ratio,
+	AVG(CASE WHEN interest_expense IS NOT NULL AND interest_expense <> 0 THEN ebit/interest_expense
+		ELSE 0 END) AS ebit_coverage_ratio,
 	
-	AVG(CASE WHEN interest_expense IS NOT NULL AND interest_expense <> 0
-			THEN 
-				CASE 
-					WHEN ebitda IS NOT NULL THEN ebitda/interest_expense
-					WHEN ebit IS NOT NULL THEN ebit/interest_expense
-				END
-		END) AS ebitda_coverage_ratio,
+	AVG(CASE WHEN ebitda IS NOT NULL AND interest_expense <> 0 THEN ebitda/interest_expense
+		ELSE 0 END) AS ebitda_coverage_ratio,
 	
-	AVG(CASE WHEN interest_expense IS NOT NULL AND interest_expense <> 0 AND
-			THEN
-				CASE
-					WHEN ebitda IS NOT NULL THEN (ebitda - capex)/interest_expense
-					WHEN ebit IS NOT NULL THEN (ebit - capex)/interest_expense
-				END
-		END) AS capex_adjusted_coverage_ratio, 
+	AVG(CASE WHEN ebitda IS NOT NULL AND interest_expense <> 0 THEN (ebitda - capex)/interest_expense
+		ELSE (ebit - capex)/interest_expense END) AS capex_adjusted_coverage_ratio, 
 	
 	AVG((accounts_receivable/revenue) * 90) AS AR,
     
@@ -86,7 +75,7 @@ standard_dev AS (
 		
 		STDDEV_SAMP(operating_cash_flow) AS stdev_op_cash_flow
 
-	FROM clean_financials
+	FROM clean_financialss
 
 	GROUP BY borrower_id
 ),
