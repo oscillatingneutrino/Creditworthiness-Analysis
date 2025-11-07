@@ -61,8 +61,6 @@ This system was used to create a grading scale, where each of the metrics was as
 
 The points were then added to give a total score. In order to be defined as credit worthy, a ratio of total score to the maximum possible score would have to reach a minimum value of 0.79 (this number is the same number used as the minimum value of credit score still determined to be good out of the maximum possible value). In this study, the maximum possible value was 31.
 
-## Forecasting
-
 ## Clarifications
 The data that was used for this project contained missing information pertinent to the calculation of several variables; as such, the sample results provided displays multiple NULL values. For this example, whenever a NULL value is encountered, it is treated as 0. The metrics used to determine the creditworthiness were taken to be applied in the most general sense; in reality, some values and their indication of a business's health is sensitive to the industry it's a part of.
 
