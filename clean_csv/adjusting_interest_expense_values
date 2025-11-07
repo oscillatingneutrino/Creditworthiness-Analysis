@@ -1,6 +1,7 @@
 The following formula was used in order to modify interest_expense values
+It is not strictly necessary, but it was for the dataset I used
 
 =IF(G2 = 0, 0,
-        IF(AND(F2/G2>=1,F2/G2<10),G2*10,
-        IF(AND(F2/G2>=10,F2/G2<100),G2*100,
-        IF(F2/G2>=100,G2*1000) ) ) )
+        IF(AND(F2/G2>=1,F2/G2<10),G2*1,
+        IF(AND(F2/G2>=10,F2/G2<100),G2*10,
+        IF(F2/G2>=100,G2*100) ) ) )
