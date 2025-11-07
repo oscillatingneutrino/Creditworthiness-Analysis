@@ -85,15 +85,10 @@ loan_quantities AS (
     SELECT
     
 	borrower_id,
-		
-	AVG(loan_amount/operating_cash_flow) AS debt_service_ratio,
 
 	MAX(loan_status) AS loan_status
 
 	FROM clean_loan
-
-		JOIN clean_financials
-			USING (borrower_id)
 
 	GROUP BY borrower_id
 
@@ -117,7 +112,6 @@ SELECT
 	q.profit_margin,
 	q.liquidity_ratio,
 	st.stdev_op_cash_flow,
-	l.debt_service_ratio,
 	l.loan_status,
 	b.credit_score
 FROM quantities q
