@@ -31,7 +31,6 @@ The following metrics were used to assess the financial stability of the simulat
 | Profit Margin | Displays the profitability |
 | Liquidity Ratio | Shows the ability to cover debts and short-term liquidity |
 | Operating Cash Flow Standard Deviation  | Covers cash flow volatility |
-| Debt Service Ratio | Determines the sustainability of paying off debts |
 | Loan Status | Shows whether a company has paid off a loan |
 | Credit Score | A prediction of your credit behavior |
 
