@@ -5,7 +5,6 @@
 - [Key Creditworthiness Indicators](#Key-Creditworthiness-Indicators)
 - [Defining and Determining Creditworthiness](#Defining-Creditworthiness)
 - [Results](#Results)
-- [Linear Regression](#Linear-Regression)
 - [Applicability and Limitations](#Applicability-and-Limitations)
   
 ## Executive Summary
@@ -82,10 +81,6 @@ A total of 37.53% of businesses measured were found to be credit-worthy. In this
 | Profit Margin | 0 | 
 | Liquidity Ratio | 99.64 |    
 | Credit Score | 78.65 |  
-
-
-
-## Linear Regression
 
 ## Applicability and Limitations
 Overall, the presented process of assessing creditworthiness provides a convenient framework by which the characteristics of a business/client can be examined through an objective grading method. The strength of this analysis comes from the presentation and calculation of useful metrics and their orderly presentation for a csv file. The sum of the metrics provides a non-technical assessment of the creditworthiness of the business that is easily understandable and completely dependent on the current health of the business.
