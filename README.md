@@ -5,6 +5,7 @@
 - [Key Creditworthiness Indicators](#Key-Creditworthiness-Indicators)
 - [Defining and Determining Creditworthiness](#Defining-Creditworthiness)
 - [Results](#Results)
+- [Linear Regression](#Linear-Regression)
 - [Applicability and Limitations](#Applicability-and-Limitations)
   
 ## Executive Summary
@@ -62,6 +63,9 @@ This system was used to create a grading scale, where each of the metrics was as
 The points were then added to give a total score and assessed as a ratio to the maximum number of points possible (31). In order to be defined as credit worthy, a minimum ratio of total score to the maximum possible score of 0.79 was required (this number is the same number used as the minimum value of credit score still determined to be good out of the maximum possible value).
 
 ## Results
+
+
+## Linear Regression
 
 ## Applicability and Limitations
 Overall, the presented process of assessing creditworthiness provides a convenient framework by which the characteristics of a business/client can be examined through an objective grading method. The strength of this analysis comes from the presentation and calculation of useful metrics and their orderly presentation for a csv file. The sum of the metrics provides a non-technical assessment of the creditworthiness of the business that is easily understandable and completely dependent on the current health of the business.
