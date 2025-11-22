@@ -41,21 +41,21 @@ Although individually useful, the above metrics can only determine an individual
 
 | Metric/Points Awarded per Status | 0 Points | 1 Point | 2 Points | 3 Points | 4 Points |
 |---|---|---|---|---|---|
-| Collateral Coverage Ratio | <1 | 1-2 Good | >2 Excellent | --- | --- |
-| TLR | >5 Bad | 3-5 Moderate | <3 Good | --- | --- |
-| SDLR | >4 Concerning | 3-4 Bad | 2-3 Good | <2 Excellent | --- |
-| EBIT Coverage Ratio | <1 Bad | 1-2 Moderate | >2 Good | >3 Excellent | --- |
-| EBITDA Coverage Ratio | <1.5 Bad | 1.5-3 Satisfactory | >3 Good | --- | --- |
-| CAPEX Adjusted Coverage Ratio | <1 Bad | 1-1.24 Ok | 1.25-2 Good | >2 Excellent | --- |
-| AP | 0-30 Good | >30 Bad | --- | --- | --- |
-| AR | 0-60 Good | >60 Bad | --- | --- | --- |
-| Inventory Days | 0-60 Good | >60 Bad | --- | --- | --- |
-| CCC | 0-45 Good | >45 Bad | --- | --- | --- |
-| Debt to Equity | >2 Bad | 1.0-1.5 Satisfactory | <1 Good | --- | --- |
-| Operating Cash Flow Coverage | <1 Bad | 1-2 Good | >2 Excellent | --- | --- | 
-| Profit Margin | <0.05 Bad | 0.1 Average | 0.1-0.2 Good | >0.2 Excellent | --- |
-| Liquidity Ratio | 1.5-2.0 Good | Else Bad | --- | --- | --- |
-| Credit Score | 300-579 Poor | 580 - 669 Fair | 670 - 739 Good | 740 - 799 Very Good | 800 - 850 Exceptional |
+| Collateral Coverage Ratio | <1 | 1-2 | >2 | --- | --- |
+| TLR | >5 | 3-5 | <3 | --- | --- |
+| SDLR | >4 | 3-4 | 2-3 | <2 | --- |
+| EBIT Coverage Ratio | <1 | 1-2 | >2 | >3 | --- |
+| EBITDA Coverage Ratio | <1.5 | 1.5-3 | >3 | --- | --- |
+| CAPEX Adjusted Coverage Ratio | <1 | 1-1.24 | 1.25-2 | >2 | --- |
+| AP | 0-30 Good | >30 | --- | --- | --- |
+| AR | 0-60 Good | >60 | --- | --- | --- |
+| Inventory Days | 0-60 | >60 | --- | --- | --- |
+| CCC | 0-45 Good | >45 | --- | --- | --- |
+| Debt to Equity | >2 | 1.0-1.5 | <1 | --- | --- |
+| Operating Cash Flow Coverage | <1 | 1-2 | >2 | --- | --- | 
+| Profit Margin | <0.05 | 0.1 | 0.1-0.2 | >0.2 | --- |
+| Liquidity Ratio | 1.5-2.0 | Else Bad | --- | --- | --- |
+| Credit Score | 300-579 | 580 - 669 | 670 - 739 | 740 - 799 | 800 - 850  |
 
 This system was used to create a grading scale, where each of the metrics was assigned a point value. The point value assigned to each category was based on the level of characterization possible; e.g. someone with an excellent CAPEX Adjusted Coverage Ratio was given a 4, and a firm with an average score was given 1 point.
 
