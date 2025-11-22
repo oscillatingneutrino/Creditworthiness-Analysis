@@ -39,9 +39,9 @@ The following metrics were used to assess the financial stability of the simulat
 ## Defining and Determining Creditworthiness
 Although individually useful, the above metrics can only determine an individual's credit worthiness when assessed as components of a larger sum. The following conditions were used to assess the quality of each business:
 
-| Metric | 0 Points | 1 Point | 2 Points | 3 Points | 4 Points |
+| Metric/Points Awarded per Metric Condition | 0 Points | 1 Point | 2 Points | 3 Points | 4 Points |
 |---|---|---|---|---|---|
-| Collateral Coverage Ratio | <1 Bad | 1-2 Good | >2 Excellent | --- | --- |
+| Collateral Coverage Ratio | <1 | 1-2 Good | >2 Excellent | --- | --- |
 | TLR | >5 Bad | 3-5 Moderate | <3 Good | --- | --- |
 | SDLR | >4 Concerning | 3-4 Bad | 2-3 Good | <2 Excellent | --- |
 | EBIT Coverage Ratio | <1 Bad | 1-2 Moderate | >2 Good | >3 Excellent | --- |
