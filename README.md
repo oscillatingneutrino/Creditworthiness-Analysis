@@ -48,7 +48,7 @@ Although individually useful, the above metrics can only determine an individual
 | EBITDA Coverage Ratio | <1.5 | 1.5-3 | >3 | --- | --- |
 | CAPEX Adjusted Coverage Ratio | <1 | 1-1.24 | 1.25-2 | >2 | --- |
 | AP | >30 | 0-30 | --- | --- | --- |
-| AR | >Good | 0-60 | --- | --- | --- |
+| AR | >60 | 0-60 | --- | --- | --- |
 | Inventory Days | >60 | 0-60 | --- | --- | --- |
 | CCC | >45 | 0-45 | --- | --- | --- |
 | Debt to Equity | >2 | 1.0-1.5 | <1 | --- | --- |
